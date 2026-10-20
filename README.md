@@ -25,12 +25,10 @@ The source transcript needed cleanup before deployment:
 
 The page is a dependency-free static site. Google Fonts are optional; the browser's fallback fonts are used if they are unavailable.
 
-## Publish with GitHub Pages
+## Live site
 
-To publish:
+The site is published at [dhakaphoenix-a11y.github.io/sanu-ki-kahaniyan](https://dhakaphoenix-a11y.github.io/sanu-ki-kahaniyan/). Source code is in the public [GitHub repository](https://github.com/dhakaphoenix-a11y/sanu-ki-kahaniyan).
 
-1. Create a GitHub repository for this project and push these files to its `main` branch.
-2. In the repository, open **Settings → Pages**.
-3. Set the build source to **Deploy from a branch**, select `main` and `/ (root)`, then save.
-4. GitHub will show the published URL in the Pages settings once its deployment finishes.
+GitHub Pages is enabled from the `main` branch at the repository root. New commits to `main` publish automatically.
+
 
