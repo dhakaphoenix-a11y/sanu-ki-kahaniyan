@@ -1,0 +1,316 @@
+<!DOCTYPE html> <html lang="hi"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"> <title>सानू की कहानियाँ 📚</title> <link rel="stylesheet" href="css/styles.css"> <link rel="preconnect" href="https://fonts.googleapis.com"> <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Tiro+Devanagari+Hindi:ital@0;1&family=Kalam:wght@300;400;700&display=swap" rel="stylesheet"> <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>"> </head> <body> <!-- Splash Screen --> <div id="splash-screen" class="splash-screen"> <div class="splash-content"> <div class="splash-avatar"> <div class="sanu-avatar-large"> <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"> <!-- Sanu's Face --> <circle cx="100" cy="95" r="65" fill="#FFDAB9"/> <!-- Hair --> <ellipse cx="100" cy="55" rx="68" ry="45" fill="#2C1810"/> <ellipse cx="45" cy="85" rx="15" ry="25" fill="#2C1810"/> <ellipse cx="155" cy="85" rx="15" ry="25" fill="#2C1810"/> <!-- Pigtails --> <circle cx="30" cy="75" r="18" fill="#2C1810"/> <circle cx="170" cy="75" r="18" fill="#2C1810"/> <!-- Hair bands --> <circle cx="30" cy="75" r="8" fill="#FF69B4"/> <circle cx="170" cy="75" r="8" fill="#FF69B4"/> <!-- Eyes --> <ellipse cx="78" cy="95" rx="8" ry="9" fill="white"/> <ellipse cx="122" cy="95" rx="8" ry="9" fill="white"/> <circle cx="80" cy="96" r="5" fill="#3C2415"/> <circle cx="124" cy="96" r="5" fill="#3C2415"/> <circle cx="82" cy="94" r="2" fill="white"/> <circle cx="126" cy="94" r="2" fill="white"/> <!-- Eyebrows --> <path d="M68 84 Q78 78 88 84" stroke="#2C1810" stroke-width="2.5" fill="none" stroke-linecap="round"/> <path d="M112 84 Q122 78 132 84" stroke="#2C1810" stroke-width="2.5" fill="none" stroke-linecap="round"/> <!-- Nose --> <ellipse cx="100" cy="108" rx="4" ry="3" fill="#F4C4A0"/> <!-- Smile --> <path d="M82 120 Q100 140 118 120" stroke="#E8636F" stroke-width="3" fill="#FF9AA2" stroke-linecap="round"/> <!-- Cheeks --> <circle cx="65" cy="112" r="10" fill="#FFB6C1" opacity="0.6"/> <circle cx="135" cy="112" r="10" fill="#FFB6C1" opacity="0.6"/> <!-- Bindi --> <circle cx="100" cy="78" r="3" fill="#FF0000"/> <!-- Dress collar --> <path d="M60 155 Q100 175 140 155" fill="#FF69B4" stroke="#FF1493" stroke-width="2"/> </svg> </div> </div> <h1 class="splash-title">सानू की कहानियाँ</h1> <p class="splash-subtitle">✨ जादुई दुनिया में आपका स्वागत है ✨</p> <div class="splash-stars">⭐🌟✨🌟⭐</div> <button id="enter-btn" class="enter-btn" onclick="enterWebsite()"> <span>कहानियाँ पढ़ो</span> <span class="btn-emoji">📖</span> </button> </div> <div class="floating-elements"> <span class="float-item" style="--delay:0s;--x:10%;--y:20%">🦋</span> <span class="float-item" style="--delay:1s;--x:80%;--y:15%">⭐</span> <span class="float-item" style="--delay:2s;--x:15%;--y:70%">🌸</span> <span class="float-item" style="--delay:3s;--x:85%;--y:65%">🦜</span> <span class="float-item" style="--delay:0.5s;--x:50%;--y:80%">🌈</span> <span class="float-item" style="--delay:1.5s;--x:30%;--y:10%">🎀</span> <span class="float-item" style="--delay:2.5s;--x:70%;--y:75%">🌺</span> </div> </div>
+
+<!-- Main App -->
+<div id="main-app" class="main-app hidden">
+    <!-- Top Navigation Bar -->
+    <nav class="top-nav">
+        <div class="nav-left">
+            <button class="nav-btn menu-btn" onclick="toggleSidebar()" aria-label="Menu">
+                <span class="hamburger">☰</span>
+            </button>
+            <div class="nav-logo" onclick="goHome()">
+                <span class="logo-emoji">📚</span>
+                <span class="logo-text">सानू की कहानियाँ</span>
+            </div>
+        </div>
+        <div class="nav-right">
+            <button class="nav-btn" onclick="toggleSearch()" aria-label="Search">🔍</button>
+            <button class="nav-btn" onclick="toggleNightMode()" aria-label="Night Mode" id="night-mode-btn">🌙</button>
+            <button class="nav-btn bookmark-nav-btn" onclick="showBookmarks()" aria-label="Bookmarks">🔖</button>
+        </div>
+    </nav>
+
+    <!-- Search Bar -->
+    <div id="search-bar" class="search-bar hidden">
+        <div class="search-container">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="search-input" placeholder="कहानी खोजो..." oninput="searchStories(this.value)">
+            <button class="search-close" onclick="toggleSearch()">✕</button>
+        </div>
+        <div id="search-results" class="search-results"></div>
+    </div>
+
+    <!-- Sidebar -->
+    <div id="sidebar-overlay" class="sidebar-overlay hidden" onclick="toggleSidebar()"></div>
+    <aside id="sidebar" class="sidebar">
+        <div class="sidebar-header">
+            <div class="sidebar-avatar">
+                <div class="sanu-mini-avatar">👧🏻</div>
+            </div>
+            <h3>सानू की दुनिया</h3>
+            <button class="sidebar-close" onclick="toggleSidebar()">✕</button>
+        </div>
+        <nav class="sidebar-nav">
+            <button class="sidebar-item active" onclick="filterCategory('all')">
+                <span class="sidebar-icon">📚</span>
+                <span>सभी कहानियाँ</span>
+                <span class="story-count" id="count-all">50</span>
+            </button>
+            <button class="sidebar-item" onclick="filterCategory('panchatantra')">
+                <span class="sidebar-icon">🦁</span>
+                <span>पंचतंत्र</span>
+                <span class="story-count" id="count-panchatantra">15</span>
+            </button>
+            <button class="sidebar-item" onclick="filterCategory('jataka')">
+                <span class="sidebar-icon">🪷</span>
+                <span>जातक कथाएँ</span>
+                <span class="story-count" id="count-jataka">10</span>
+            </button>
+            <button class="sidebar-item" onclick="filterCategory('akbar-birbal')">
+                <span class="sidebar-icon">👑</span>
+                <span>अकबर-बीरबल</span>
+                <span class="story-count" id="count-akbar-birbal">15</span>
+            </button>
+            <button class="sidebar-item" onclick="filterCategory('tenali')">
+                <span class="sidebar-icon">🎭</span>
+                <span>तेनाली रामन</span>
+                <span class="story-count" id="count-tenali">10</span>
+            </button>
+            <button class="sidebar-item" onclick="filterCategory('moral')">
+                <span class="sidebar-icon">💡</span>
+                <span>नैतिक कहानियाँ</span>
+                <span class="story-count" id="count-moral">20</span>
+            </button>
+            <button class="sidebar-item" onclick="filterCategory('fairy')">
+                <span class="sidebar-icon">🧚</span>
+                <span>परियों की कहानियाँ</span>
+                <span class="story-count" id="count-fairy">15</span>
+            </button>
+            <button class="sidebar-item" onclick="filterCategory('nature')">
+                <span class="sidebar-icon">🌿</span>
+                <span>प्रकृति की कहानियाँ</span>
+                <span class="story-count" id="count-nature">10</span>
+            </button>
+            <button class="sidebar-item" onclick="filterCategory('adventure')">
+                <span class="sidebar-icon">🚀</span>
+                <span>सानू के कारनामे</span>
+                <span class="story-count" id="count-adventure">5</span>
+            </button>
+            <div class="sidebar-divider"></div>
+            <button class="sidebar-item" onclick="showBookmarks()">
+                <span class="sidebar-icon">🔖</span>
+                <span>मेरी पसंदीदा</span>
+                <span class="story-count" id="count-bookmarks">0</span>
+            </button>
+            <button class="sidebar-item" onclick="showProgress()">
+                <span class="sidebar-icon">📊</span>
+                <span>मेरी प्रगति</span>
+            </button>
+        </nav>
+        <!-- Mascot in sidebar -->
+        <div class="sidebar-mascot">
+            <div class="mascot-bubble">चलो कहानी पढ़ें! 😊</div>
+            <div class="mascot-character">🐰</div>
+            <p class="mascot-name">गोलू खरगोश</p>
+        </div>
+    </aside>
+
+    <!-- Home Page / Catalog -->
+    <main id="home-page" class="main-content">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <div class="hero-mascot-container">
+                    <div class="hero-sanu">👧🏻</div>
+                    <div class="hero-mascot">🐰</div>
+                </div>
+                <h1 class="hero-title">नमस्ते! मैं सानू हूँ 🙏</h1>
+                <p class="hero-subtitle">आज कौन सी कहानी पढ़ें? गोलू खरगोश भी तैयार है!</p>
+            </div>
+            <div class="hero-wave">
+                <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                    <path d="M0,64L48,69.3C96,75,192,85,288,80C384,75,480,53,576,48C672,43,768,53,864,69.3C960,85,1056,107,1152,101.3C1248,96,1344,64,1392,48L1440,32L1440,120L0,120Z" fill="var(--bg-color)"/>
+                </svg>
+            </div>
+        </section>
+
+        <!-- Category Cards -->
+        <section class="categories-section" id="categories-section">
+            <h2 class="section-title">📂 कहानियाँ चुनो</h2>
+            <div class="category-carousel">
+                <div class="category-card" onclick="filterCategory('panchatantra')" style="--card-bg: linear-gradient(135deg, #FF9A9E, #FAD0C4)">
+                    <span class="cat-emoji">🦁</span>
+                    <h3>पंचतंत्र</h3>
+                    <p>15 कहानियाँ</p>
+                </div>
+                <div class="category-card" onclick="filterCategory('jataka')" style="--card-bg: linear-gradient(135deg, #A18CD1, #FBC2EB)">
+                    <span class="cat-emoji">🪷</span>
+                    <h3>जातक कथाएँ</h3>
+                    <p>10 कहानियाँ</p>
+                </div>
+                <div class="category-card" onclick="filterCategory('akbar-birbal')" style="--card-bg: linear-gradient(135deg, #FAD961, #F76B1C)">
+                    <span class="cat-emoji">👑</span>
+                    <h3>अकबर-बीरबल</h3>
+                    <p>15 कहानियाँ</p>
+                </div>
+                <div class="category-card" onclick="filterCategory('tenali')" style="--card-bg: linear-gradient(135deg, #84FAB0, #8FD3F4)">
+                    <span class="cat-emoji">🎭</span>
+                    <h3>तेनाली रामन</h3>
+                    <p>10 कहानियाँ</p>
+                </div>
+                <div class="category-card" onclick="filterCategory('moral')" style="--card-bg: linear-gradient(135deg, #FFB347, #FFCC33)">
+                    <span class="cat-emoji">💡</span>
+                    <h3>नैतिक कहानियाँ</h3>
+                    <p>20 कहानियाँ</p>
+                </div>
+                <div class="category-card" onclick="filterCategory('fairy')" style="--card-bg: linear-gradient(135deg, #FF9FF3, #F368E0)">
+                    <span class="cat-emoji">🧚</span>
+                    <h3>परियों की कहानियाँ</h3>
+                    <p>15 कहानियाँ</p>
+                </div>
+                <div class="category-card" onclick="filterCategory('nature')" style="--card-bg: linear-gradient(135deg, #56AB2F, #A8E063)">
+                    <span class="cat-emoji">🌿</span>
+                    <h3>प्रकृति की कहानियाँ</h3>
+                    <p>10 कहानियाँ</p>
+                </div>
+                <div class="category-card" onclick="filterCategory('adventure')" style="--card-bg: linear-gradient(135deg, #667EEA, #764BA2)">
+                    <span class="cat-emoji">🚀</span>
+                    <h3>सानू के कारनामे</h3>
+                    <p>5 कहानियाँ</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stories Grid -->
+        <section class="stories-section" id="stories-section">
+            <div class="section-header">
+                <h2 class="section-title" id="stories-section-title">📖 सभी कहानियाँ</h2>
+                <button class="back-to-cats" id="back-to-cats" onclick="goHome()" style="display:none">← वापस</button>
+            </div>
+            <div class="stories-grid" id="stories-grid">
+                <!-- Stories will be injected here by JS -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Story Reader Page -->
+    <div id="story-reader" class="story-reader hidden">
+        <div class="reader-header">
+            <button class="reader-back" onclick="closeStory()">← वापस</button>
+            <div class="reader-actions">
+                <button class="reader-btn" onclick="toggleBookmark()" id="bookmark-btn" aria-label="Bookmark">🤍</button>
+                <button class="reader-btn" onclick="decreaseFontSize()" aria-label="Decrease font">A-</button>
+                <button class="reader-btn" onclick="increaseFontSize()" aria-label="Increase font">A+</button>
+                <button class="reader-btn" onclick="toggleAutoScroll()" id="auto-scroll-btn" aria-label="Auto scroll">▶️</button>
+                <button class="reader-btn" onclick="readAloud()" id="read-aloud-btn" aria-label="Read aloud">🔊</button>
+            </div>
+        </div>
+
+        <div class="reader-content" id="reader-content">
+            <!-- Story content will be injected here -->
+        </div>
+
+        <!-- Story Rating -->
+        <div class="story-rating" id="story-rating">
+            <div class="rating-mascot">🐰</div>
+            <p class="rating-question">सानू को कहानी कैसी लगी?</p>
+            <div class="rating-stars">
+                <button class="star-btn" onclick="rateStory(1)">⭐</button>
+                <button class="star-btn" onclick="rateStory(2)">⭐</button>
+                <button class="star-btn" onclick="rateStory(3)">⭐</button>
+                <button class="star-btn" onclick="rateStory(4)">⭐</button>
+                <button class="star-btn" onclick="rateStory(5)">⭐</button>
+            </div>
+            <div class="rating-emojis">
+                <span>😐</span>
+                <span>🙂</span>
+                <span>😊</span>
+                <span>😍</span>
+                <span>🤩</span>
+            </div>
+        </div>
+
+        <!-- Story Navigation -->
+        <div class="story-nav-bottom">
+            <button class="story-nav-btn prev-btn" onclick="prevStory()" id="prev-story-btn">
+                <span>⬅️</span>
+                <span>पिछली कहानी</span>
+            </button>
+            <button class="story-nav-btn next-btn" onclick="nextStory()" id="next-story-btn">
+                <span>अगली कहानी</span>
+                <span>➡️</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Bookmarks Page -->
+    <div id="bookmarks-page" class="bookmarks-page hidden">
+        <div class="page-header">
+            <button class="reader-back" onclick="goHome()">← वापस</button>
+            <h2>🔖 मेरी पसंदीदा कहानियाँ</h2>
+        </div>
+        <div class="stories-grid" id="bookmarks-grid">
+            <div class="empty-state" id="empty-bookmarks">
+                <span class="empty-emoji">📚</span>
+                <p>अभी कोई पसंदीदा कहानी नहीं है</p>
+                <p>कहानी पढ़ते समय 🤍 दबाकर यहाँ जोड़ो!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Progress Page -->
+    <div id="progress-page" class="progress-page hidden">
+        <div class="page-header">
+            <button class="reader-back" onclick="goHome()">← वापस</button>
+            <h2>📊 सानू की प्रगति</h2>
+        </div>
+        <div class="progress-content">
+            <div class="progress-card">
+                <div class="progress-circle" id="progress-circle">
+                    <svg viewBox="0 0 120 120">
+                        <circle cx="60" cy="60" r="54" stroke="#e0e0e0" stroke-width="8" fill="none"/>
+                        <circle cx="60" cy="60" r="54" stroke="#FF69B4" stroke-width="8" fill="none"
+                                stroke-dasharray="339.292" stroke-dashoffset="339.292"
+                                id="progress-ring" stroke-linecap="round"
+                                transform="rotate(-90 60 60)"/>
+                    </svg>
+                    <div class="progress-text" id="progress-text">0%</div>
+                </div>
+                <h3>कहानियाँ पढ़ी</h3>
+                <p id="stories-read-count">0 / 50</p>
+            </div>
+            <div class="progress-stats">
+                <div class="stat-card">
+                    <span class="stat-emoji">⭐</span>
+                    <span class="stat-value" id="avg-rating">0</span>
+                    <span class="stat-label">औसत रेटिंग</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-emoji">❤️</span>
+                    <span class="stat-value" id="fav-count">0</span>
+                    <span class="stat-label">पसंदीदा</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-emoji">🏆</span>
+                    <span class="stat-value" id="streak-count">0</span>
+                    <span class="stat-label">लगातार दिन</span>
+                </div>
+            </div>
+            <div class="category-progress" id="category-progress">
+                <!-- Category-wise progress bars will be injected -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Mascot -->
+    <div class="floating-mascot" id="floating-mascot" onclick="mascotSpeak()">
+        <div class="mascot-speech-bubble hidden" id="mascot-bubble">
+            <p id="mascot-message">कहानी पढ़ो! 😊</p>
+        </div>
+        <div class="mascot-body">🐰</div>
+    </div>
+</div>
+
+<!-- Toast Notification -->
+<div id="toast" class="toast hidden">
+    <span id="toast-message"></span>
+</div>
+
+<script src="js/stories.js"></script>
+<script src="js/stories-part2.js"></script>
+<script src="js/stories-part3.js"></script>
+<script src="js/app.js"></script>
+
+</body> </html>
+
+
