@@ -1,0 +1,228 @@
+/* ============================================================
+   Illustrated storybook layer: splash painting, hero banner,
+   uncropped artwork and the mixed reader layouts.
+   Loaded after css/styles.css so it can refine it.
+   ============================================================ */
+
+/* ---------------- Splash screen painting ---------------- */
+.splash-bg {
+    position: absolute;
+    inset: 0;
+    background: url("../assets/img/splash-bg.webp") center / cover no-repeat;
+    animation: splashZoom 20s ease-in-out infinite alternate;
+    z-index: 0;
+}
+
+.splash-veil {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 240, 246, 0.14) 55%, rgba(255, 240, 246, 0.55) 100%);
+    z-index: 1;
+}
+
+.splash-content { position: relative; z-index: 3; }
+.floating-elements { z-index: 2; }
+
+.splash-title,
+.splash-subtitle {
+    text-shadow: 0 2px 14px rgba(255, 255, 255, 0.9), 0 0 3px rgba(255, 255, 255, 0.95);
+}
+
+@keyframes splashZoom {
+    from { transform: scale(1); }
+    to { transform: scale(1.08); }
+}
+
+/* ---------------- Home page banner ---------------- */
+.hero-banner {
+    max-width: 720px;
+    margin: 0 auto 20px;
+    border-radius: 26px;
+    overflow: hidden;
+    background: #fffdf9;
+    box-shadow: 0 16px 38px rgba(178, 96, 138, 0.22);
+    animation: bannerPop 0.8s ease both;
+}
+
+.hero-banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero-banner figcaption {
+    padding: 9px 16px 11px;
+    font-size: 0.85rem;
+    letter-spacing: 0.01em;
+    color: #8d5c73;
+    background: #fff6fb;
+    font-family: 'Baloo 2', 'Tiro Devanagari Hindi', sans-serif;
+}
+
+.night-mode .hero-banner { background: #211d2c; box-shadow: 0 16px 38px rgba(0, 0, 0, 0.45); }
+.night-mode .hero-banner figcaption { background: #262234; color: #e8d9ef; }
+
+@keyframes bannerPop {
+    from { opacity: 0; transform: translateY(14px) scale(0.98); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* ---------------- Story cards: show the whole picture ---------------- */
+.story-card-image {
+    height: auto !important;
+    aspect-ratio: 4 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fffaf3;
+    overflow: hidden;
+}
+
+.story-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    transition: transform 0.45s ease;
+}
+
+.story-card:hover .story-card-image img,
+.story-card:focus-visible .story-card-image img { transform: scale(1.05); }
+
+.night-mode .story-card-image { background: #221f2e; }
+
+/* ---------------- Reader scenes ---------------- */
+.story-scene {
+    display: grid;
+    gap: 18px;
+    align-items: center;
+    margin: 24px 0;
+    padding: 18px;
+    border-radius: 26px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 12px 30px rgba(75, 42, 20, 0.1);
+}
+
+.scene-figure {
+    margin: 0;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #fff7f0;
+    box-shadow: 0 8px 20px rgba(75, 42, 20, 0.14);
+}
+
+.scene-figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.scene-figure--plain {
+    min-height: 190px;
+    display: grid;
+    place-items: center;
+    font-size: clamp(3rem, 12vw, 5rem);
+}
+
+.scene-emoji { filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.12)); }
+
+.scene-number {
+    position: absolute;
+    bottom: 10px;
+    right: 12px;
+    font: 700 0.72rem/1 'Baloo 2', sans-serif;
+    color: #5a3b2e;
+    background: rgba(255, 255, 255, 0.88);
+    padding: 5px 10px;
+    border-radius: 999px;
+    letter-spacing: 0.04em;
+}
+
+.story-segment-text {
+    font-size: 1.02rem;
+    line-height: 2;
+    font-family: 'Tiro Devanagari Hindi', 'Kalam', serif;
+}
+
+/* side by side */
+.layout-side-left { grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); }
+.layout-side-left .scene-figure { grid-column: 1; }
+.layout-side-left .story-segment-text { grid-column: 2; }
+
+.layout-side-right { grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr); }
+.layout-side-right .scene-figure { grid-column: 2; grid-row: 1; }
+.layout-side-right .story-segment-text { grid-column: 1; grid-row: 1; }
+
+/* stacked, up and down */
+.layout-stack { grid-template-columns: 1fr; }
+.layout-stack .story-segment-text { padding: 0 6px; }
+
+.layout-image-top { grid-template-columns: 1fr; }
+.layout-image-top .scene-figure { order: 1; }
+.layout-image-top .story-segment-text { order: 2; padding: 0 6px; }
+
+.layout-image-bottom { grid-template-columns: 1fr; }
+.layout-image-bottom .scene-figure { order: 2; }
+.layout-image-bottom .story-segment-text { order: 1; padding: 0 6px; }
+
+/* text sitting on the painting, still readable */
+.layout-overlay { grid-template-columns: 1fr; }
+.layout-overlay .scene-figure { grid-area: 1 / 1; }
+
+.layout-overlay .scene-figure::after {
+    content: '';
+    position: absolute;
+    inset: 32% 0 0 0;
+    background: linear-gradient(180deg, rgba(24, 12, 6, 0) 0%, rgba(24, 12, 6, 0.74) 100%);
+}
+
+.layout-overlay .story-segment-text {
+    grid-area: 1 / 1;
+    align-self: end;
+    z-index: 2;
+    margin: 0 16px 16px;
+    padding: 18px 20px;
+    color: #fff8f1;
+    background: rgba(38, 22, 13, 0.42);
+    backdrop-filter: blur(3px);
+    border-radius: 18px;
+    border-left: 4px solid #ffd76a;
+    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.35);
+}
+
+.layout-overlay .scene-number { color: #4a2f22; }
+
+.night-mode .story-scene { background: rgba(34, 30, 45, 0.92); }
+.night-mode .scene-figure { background: #2a2637; }
+
+/* ---------------- Reader header ---------------- */
+.story-reader-header h1 { line-height: 1.4; }
+
+@media (max-width: 640px) {
+    .layout-side-left,
+    .layout-side-right { grid-template-columns: 1fr; }
+
+    .layout-side-left .scene-figure,
+    .layout-side-left .story-segment-text,
+    .layout-side-right .scene-figure,
+    .layout-side-right .story-segment-text {
+        grid-column: 1;
+        grid-row: auto;
+    }
+
+    .layout-side-right .scene-figure { order: 1; }
+    .layout-side-right .story-segment-text { order: 2; }
+
+    .layout-overlay .story-segment-text {
+        margin: 0 10px 10px;
+        padding: 14px 16px;
+    }
+
+    .story-scene { padding: 14px; border-radius: 22px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .splash-bg { animation: none; }
+    .hero-banner { animation: none; }
+}

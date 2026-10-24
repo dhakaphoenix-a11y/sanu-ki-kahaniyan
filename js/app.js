@@ -14,6 +14,29 @@ const readStore = (key, fallback) => { try { return JSON.parse(localStorage.getI
 const writeStore = (key, value) => { try { localStorage.setItem(`sanu_${key}`, JSON.stringify(value)); } catch {} };
 const escapeHtml = value => String(value).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
 const byId = id => document.getElementById(id);
+const READER_LAYOUTS = ['layout-side-left', 'layout-side-right', 'layout-stack', 'layout-overlay', 'layout-image-top', 'layout-image-bottom'];
+const imageList = story => (window.IMG_MANIFEST && window.IMG_MANIFEST[story.id]) || [];
+
+function sceneFigure(story, scene, index, eager) {
+  const images = imageList(story);
+  const image = images.length ? images[index % images.length] : null;
+  const badge = `<span class="scene-number">${index + 1} / ${story.scenes.length}</span>`;
+  if (!image) {
+    return `<figure class="scene-figure scene-figure--plain" style="background:${escapeHtml(scene.image?.bg || story.bgGradient)}"><span class="scene-emoji">${escapeHtml(scene.image?.emoji || story.emoji)}</span>${badge}</figure>`;
+  }
+  return `<figure class="scene-figure"><img src="${escapeHtml(image)}" alt="${escapeHtml(story.title)} का दृश्य ${index + 1}" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async">${badge}</figure>`;
+}
+
+function sceneMarkup(story, scene, index) {
+  const layout = READER_LAYOUTS[(story.id + index) % READER_LAYOUTS.length];
+  return `<section class="story-scene ${layout}">${sceneFigure(story, scene, index, index === 0)}<p class="story-segment-text">${escapeHtml(scene.text)}</p></section>`;
+}
+
+function cardThumb(story) {
+  const image = imageList(story)[0];
+  if (!image) return `<div class="story-illustration" style="background:${escapeHtml(story.bgGradient)}"><span>${escapeHtml(story.emoji)}</span></div>`;
+  return `<img src="${escapeHtml(image)}" alt="${escapeHtml(story.title)}" loading="lazy" decoding="async">`;
+}
 
 function showToast(message) {
   const toast = byId('toast');
@@ -62,7 +85,7 @@ function renderStories(category = 'all') {
   byId('back-to-cats').style.display = category === 'all' ? 'none' : 'inline-flex';
   grid.innerHTML = stories.map(story => `
     <article class="story-card" role="button" tabindex="0" onclick="openStory(${story.id})" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openStory(${story.id})}">
-      <div class="story-card-image"><div class="story-illustration" style="background:${escapeHtml(story.bgGradient)}"><span>${escapeHtml(story.emoji)}</span></div></div>
+      <div class="story-card-image">${cardThumb(story)}</div>
       <div class="story-card-body"><div class="story-card-category">${escapeHtml(story.categoryLabel)}</div><h3 class="story-card-title">${escapeHtml(story.title)}</h3>
       <div class="story-card-meta"><span>📖 ${story.scenes.length} चित्र</span><span>${reads.includes(story.id)?'✅ पढ़ी':''} ${favorites.includes(story.id)?'❤️':''} ${ratings[story.id]?'⭐'.repeat(ratings[story.id]):''}</span></div></div>
     </article>`).join('') || '<div class="empty-state"><span class="empty-emoji">📚</span><p>इस श्रेणी में अभी कहानियाँ नहीं हैं।</p></div>';
@@ -90,7 +113,7 @@ function openStory(id) {
   byId('story-reader').classList.remove('hidden'); byId('floating-mascot').classList.add('hidden');
   byId('reader-content').innerHTML = `
     <header class="story-reader-header"><span>${escapeHtml(story.categoryLabel)}</span><h1>${escapeHtml(story.title)}</h1></header>
-    ${story.scenes.map((scene,index)=>`<section class="story-scene"><div class="story-scene-image" style="background:${escapeHtml(scene.image?.bg || story.bgGradient)}"><span>${escapeHtml(scene.image?.emoji || story.emoji)}</span><small>${index+1}/${story.scenes.length}</small></div><p class="story-segment-text">${escapeHtml(scene.text)}</p></section>`).join('')}
+    ${story.scenes.map((scene, index) => sceneMarkup(story, scene, index)).join('')}
     <aside class="moral-box"><strong>🌟 कहानी की सीख</strong><p>${escapeHtml(story.moral)}</p></aside>`;
   byId('bookmark-btn').textContent = bookmarked ? '❤️' : '🤍';
   document.querySelectorAll('.star-btn').forEach((button,index) => button.classList.toggle('active', index < savedRating));
@@ -121,7 +144,7 @@ function showBookmarks() {
   if (!byId('sidebar-overlay').classList.contains('hidden')) toggleSidebar();
   const list = STORIES.filter(story => readStore('bookmarks',[]).includes(story.id));
   byId('home-page').classList.add('hidden'); byId('story-reader').classList.add('hidden'); byId('progress-page').classList.add('hidden'); byId('bookmarks-page').classList.remove('hidden');
-  byId('bookmarks-grid').innerHTML = list.map(story => `<article class="story-card" onclick="openStory(${story.id})"><div class="story-card-image"><div class="story-illustration" style="background:${escapeHtml(story.bgGradient)}"><span>${escapeHtml(story.emoji)}</span></div></div><div class="story-card-body"><div class="story-card-category">${escapeHtml(story.categoryLabel)}</div><h3 class="story-card-title">${escapeHtml(story.title)}</h3></div></article>`).join('') || '<div class="empty-state"><span class="empty-emoji">🔖</span><p>अभी कोई पसंदीदा कहानी नहीं है।</p><p>कहानी में ❤️ दबाकर यहाँ जोड़ें।</p></div>';
+  byId('bookmarks-grid').innerHTML = list.map(story => `<article class="story-card" onclick="openStory(${story.id})"><div class="story-card-image">${cardThumb(story)}</div><div class="story-card-body"><div class="story-card-category">${escapeHtml(story.categoryLabel)}</div><h3 class="story-card-title">${escapeHtml(story.title)}</h3></div></article>`).join('') || '<div class="empty-state"><span class="empty-emoji">🔖</span><p>अभी कोई पसंदीदा कहानी नहीं है।</p><p>कहानी में ❤️ दबाकर यहाँ जोड़ें।</p></div>';
 }
 function rateStory(stars) { const ratings = readStore('ratings',{}); ratings[currentStoryId] = stars; writeStore('ratings',ratings); document.querySelectorAll('.star-btn').forEach((button,index)=>button.classList.toggle('active',index<stars)); renderStories(currentCategory); showToast('⭐ रेटिंग सहेजी गई'); }
 

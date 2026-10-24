@@ -1,4 +1,4 @@
-<!DOCTYPE html> <html lang="hi"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"> <title>सानू की कहानियाँ 📚</title> <link rel="stylesheet" href="css/styles.css"> <link rel="preconnect" href="https://fonts.googleapis.com"> <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Tiro+Devanagari+Hindi:ital@0;1&family=Kalam:wght@300;400;700&display=swap" rel="stylesheet"> <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>"> </head> <body> <!-- Splash Screen --> <div id="splash-screen" class="splash-screen"> <div class="splash-content"> <div class="splash-avatar"> <div class="sanu-avatar-large"> <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"> <!-- Sanu's Face --> <circle cx="100" cy="95" r="65" fill="#FFDAB9"/> <!-- Hair --> <ellipse cx="100" cy="55" rx="68" ry="45" fill="#2C1810"/> <ellipse cx="45" cy="85" rx="15" ry="25" fill="#2C1810"/> <ellipse cx="155" cy="85" rx="15" ry="25" fill="#2C1810"/> <!-- Pigtails --> <circle cx="30" cy="75" r="18" fill="#2C1810"/> <circle cx="170" cy="75" r="18" fill="#2C1810"/> <!-- Hair bands --> <circle cx="30" cy="75" r="8" fill="#FF69B4"/> <circle cx="170" cy="75" r="8" fill="#FF69B4"/> <!-- Eyes --> <ellipse cx="78" cy="95" rx="8" ry="9" fill="white"/> <ellipse cx="122" cy="95" rx="8" ry="9" fill="white"/> <circle cx="80" cy="96" r="5" fill="#3C2415"/> <circle cx="124" cy="96" r="5" fill="#3C2415"/> <circle cx="82" cy="94" r="2" fill="white"/> <circle cx="126" cy="94" r="2" fill="white"/> <!-- Eyebrows --> <path d="M68 84 Q78 78 88 84" stroke="#2C1810" stroke-width="2.5" fill="none" stroke-linecap="round"/> <path d="M112 84 Q122 78 132 84" stroke="#2C1810" stroke-width="2.5" fill="none" stroke-linecap="round"/> <!-- Nose --> <ellipse cx="100" cy="108" rx="4" ry="3" fill="#F4C4A0"/> <!-- Smile --> <path d="M82 120 Q100 140 118 120" stroke="#E8636F" stroke-width="3" fill="#FF9AA2" stroke-linecap="round"/> <!-- Cheeks --> <circle cx="65" cy="112" r="10" fill="#FFB6C1" opacity="0.6"/> <circle cx="135" cy="112" r="10" fill="#FFB6C1" opacity="0.6"/> <!-- Bindi --> <circle cx="100" cy="78" r="3" fill="#FF0000"/> <!-- Dress collar --> <path d="M60 155 Q100 175 140 155" fill="#FF69B4" stroke="#FF1493" stroke-width="2"/> </svg> </div> </div> <h1 class="splash-title">सानू की कहानियाँ</h1> <p class="splash-subtitle">✨ जादुई दुनिया में आपका स्वागत है ✨</p> <div class="splash-stars">⭐🌟✨🌟⭐</div> <button id="enter-btn" class="enter-btn" onclick="enterWebsite()"> <span>कहानियाँ पढ़ो</span> <span class="btn-emoji">📖</span> </button> </div> <div class="floating-elements"> <span class="float-item" style="--delay:0s;--x:10%;--y:20%">🦋</span> <span class="float-item" style="--delay:1s;--x:80%;--y:15%">⭐</span> <span class="float-item" style="--delay:2s;--x:15%;--y:70%">🌸</span> <span class="float-item" style="--delay:3s;--x:85%;--y:65%">🦜</span> <span class="float-item" style="--delay:0.5s;--x:50%;--y:80%">🌈</span> <span class="float-item" style="--delay:1.5s;--x:30%;--y:10%">🎀</span> <span class="float-item" style="--delay:2.5s;--x:70%;--y:75%">🌺</span> </div> </div>
+<!DOCTYPE html> <html lang="hi"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"> <title>सानू की कहानियाँ 📚</title> <link rel="stylesheet" href="css/styles.css"> <link rel="stylesheet" href="css/storybook.css"> <link rel="preload" href="assets/img/splash-bg.webp" as="image" fetchpriority="high"> <link rel="preconnect" href="https://fonts.googleapis.com"> <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Tiro+Devanagari+Hindi:ital@0;1&family=Kalam:wght@300;400;700&display=swap" rel="stylesheet"> <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>"> </head> <body> <!-- Splash Screen --> <div id="splash-screen" class="splash-screen"> <div class="splash-bg" aria-hidden="true"></div> <div class="splash-veil" aria-hidden="true"></div> <div class="splash-content"> <div class="splash-avatar"> <div class="sanu-avatar-large"> <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"> <!-- Sanu's Face --> <circle cx="100" cy="95" r="65" fill="#FFDAB9"/> <!-- Hair --> <ellipse cx="100" cy="55" rx="68" ry="45" fill="#2C1810"/> <ellipse cx="45" cy="85" rx="15" ry="25" fill="#2C1810"/> <ellipse cx="155" cy="85" rx="15" ry="25" fill="#2C1810"/> <!-- Pigtails --> <circle cx="30" cy="75" r="18" fill="#2C1810"/> <circle cx="170" cy="75" r="18" fill="#2C1810"/> <!-- Hair bands --> <circle cx="30" cy="75" r="8" fill="#FF69B4"/> <circle cx="170" cy="75" r="8" fill="#FF69B4"/> <!-- Eyes --> <ellipse cx="78" cy="95" rx="8" ry="9" fill="white"/> <ellipse cx="122" cy="95" rx="8" ry="9" fill="white"/> <circle cx="80" cy="96" r="5" fill="#3C2415"/> <circle cx="124" cy="96" r="5" fill="#3C2415"/> <circle cx="82" cy="94" r="2" fill="white"/> <circle cx="126" cy="94" r="2" fill="white"/> <!-- Eyebrows --> <path d="M68 84 Q78 78 88 84" stroke="#2C1810" stroke-width="2.5" fill="none" stroke-linecap="round"/> <path d="M112 84 Q122 78 132 84" stroke="#2C1810" stroke-width="2.5" fill="none" stroke-linecap="round"/> <!-- Nose --> <ellipse cx="100" cy="108" rx="4" ry="3" fill="#F4C4A0"/> <!-- Smile --> <path d="M82 120 Q100 140 118 120" stroke="#E8636F" stroke-width="3" fill="#FF9AA2" stroke-linecap="round"/> <!-- Cheeks --> <circle cx="65" cy="112" r="10" fill="#FFB6C1" opacity="0.6"/> <circle cx="135" cy="112" r="10" fill="#FFB6C1" opacity="0.6"/> <!-- Bindi --> <circle cx="100" cy="78" r="3" fill="#FF0000"/> <!-- Dress collar --> <path d="M60 155 Q100 175 140 155" fill="#FF69B4" stroke="#FF1493" stroke-width="2"/> </svg> </div> </div> <h1 class="splash-title">सानू की कहानियाँ</h1> <p class="splash-subtitle">✨ जादुई दुनिया में आपका स्वागत है ✨</p> <div class="splash-stars">⭐🌟✨🌟⭐</div> <button id="enter-btn" class="enter-btn" onclick="enterWebsite()"> <span>कहानियाँ पढ़ो</span> <span class="btn-emoji">📖</span> </button> </div> <div class="floating-elements"> <span class="float-item" style="--delay:0s;--x:10%;--y:20%">🦋</span> <span class="float-item" style="--delay:1s;--x:80%;--y:15%">⭐</span> <span class="float-item" style="--delay:2s;--x:15%;--y:70%">🌸</span> <span class="float-item" style="--delay:3s;--x:85%;--y:65%">🦜</span> <span class="float-item" style="--delay:0.5s;--x:50%;--y:80%">🌈</span> <span class="float-item" style="--delay:1.5s;--x:30%;--y:10%">🎀</span> <span class="float-item" style="--delay:2.5s;--x:70%;--y:75%">🌺</span> </div> </div>
 
 <!-- Main App -->
 <div id="main-app" class="main-app hidden">
@@ -44,7 +44,7 @@
             <button class="sidebar-item active" onclick="filterCategory('all')">
                 <span class="sidebar-icon">📚</span>
                 <span>सभी कहानियाँ</span>
-                <span class="story-count" id="count-all">50</span>
+                <span class="story-count" id="count-all">100</span>
             </button>
             <button class="sidebar-item" onclick="filterCategory('panchatantra')">
                 <span class="sidebar-icon">🦁</span>
@@ -109,6 +109,10 @@
     <main id="home-page" class="main-content">
         <!-- Hero Section -->
         <section class="hero-section">
+            <figure class="hero-banner">
+                <img src="assets/img/hero-banner.webp" alt="जंगल के प्यारे जानवर साथ में" loading="eager" decoding="async" fetchpriority="high">
+                <figcaption>हर कहानी में एक नई दोस्ती 🌿</figcaption>
+            </figure>
             <div class="hero-content">
                 <div class="hero-mascot-container">
                     <div class="hero-sanu">👧🏻</div>
@@ -267,7 +271,7 @@
                     <div class="progress-text" id="progress-text">0%</div>
                 </div>
                 <h3>कहानियाँ पढ़ी</h3>
-                <p id="stories-read-count">0 / 50</p>
+                <p id="stories-read-count">0 / 100</p>
             </div>
             <div class="progress-stats">
                 <div class="stat-card">
@@ -309,6 +313,11 @@
 <script src="js/stories.js?v=2"></script>
 <script src="js/stories-part2.js"></script>
 <script src="js/stories-part3.js"></script>
+<script src="js/stories-part4.js"></script>
+<script src="js/stories-part5.js"></script>
+<script src="js/stories-part6.js"></script>
+<script src="js/stories-part7.js"></script>
+<script src="js/img-manifest.js"></script>
 <script src="js/app.js"></script>
 
 </body> </html>

@@ -1,0 +1,3620 @@
+{
+  "assets/img/stories/1-1.webp": {
+    "title": "tortoise pond",
+    "author": "Alex_Bon_Space",
+    "author_url": "https://pixabay.com/users/Alex_Bon_Space/",
+    "page": "https://pixabay.com/illustrations/turtle-flying-fly-turtles-animal-8250689/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/1-2.webp": {
+    "title": "tortoise pond",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/animals-cartoon-green-happy-1298747/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 600
+  },
+  "assets/img/stories/1-3.webp": {
+    "title": "tortoise pond",
+    "author": "betidraws",
+    "author_url": "https://pixabay.com/users/betidraws/",
+    "page": "https://pixabay.com/illustrations/toddler-baby-teddy-bear-cute-stars-8297939/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1200
+  },
+  "assets/img/stories/1-4.webp": {
+    "title": "tortoise pond",
+    "author": "arigrafikstudio",
+    "author_url": "https://pixabay.com/users/arigrafikstudio/",
+    "page": "https://pixabay.com/vectors/frog-toad-water-green-frog-6026117/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/2-1.webp": {
+    "title": "rabbit",
+    "author": "t0ngo",
+    "author_url": "https://pixabay.com/users/t0ngo/",
+    "page": "https://pixabay.com/illustrations/forest-autumn-animals-rabbit-bear-7383165/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/2-2.webp": {
+    "title": "rabbit",
+    "author": "Bellinon",
+    "author_url": "https://pixabay.com/users/Bellinon/",
+    "page": "https://pixabay.com/vectors/rabbit-heart-bunny-animal-pet-3075088/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/2-3.webp": {
+    "title": "rabbit",
+    "author": "Clker-Free-Vector-Images",
+    "author_url": "https://pixabay.com/users/Clker-Free-Vector-Images/",
+    "page": "https://pixabay.com/vectors/rabbit-character-alice-in-wonderland-30751/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1166
+  },
+  "assets/img/stories/2-4.webp": {
+    "title": "rabbit",
+    "author": "geralt",
+    "author_url": "https://pixabay.com/users/geralt/",
+    "page": "https://pixabay.com/illustrations/ai-generated-easter-bunny-8492294/",
+    "license": "Pixabay Content License",
+    "width": 724,
+    "height": 1280
+  },
+  "assets/img/stories/3-1.webp": {
+    "title": "lion cub",
+    "author": "2567670",
+    "author_url": "https://pixabay.com/users/2567670/",
+    "page": "https://pixabay.com/vectors/leo-lion-cub-cat-predator-cute-3526456/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 948
+  },
+  "assets/img/stories/3-2.webp": {
+    "title": "lion cub",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/africa-animal-cat-cub-feline-lion-1299337/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 543
+  },
+  "assets/img/stories/3-3.webp": {
+    "title": "lion cub",
+    "author": "CreativeCanvasDesign",
+    "author_url": "https://pixabay.com/users/CreativeCanvasDesign/",
+    "page": "https://pixabay.com/vectors/lion-cub-young-lion-safari-animal-10075577/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 590
+  },
+  "assets/img/stories/3-4.webp": {
+    "title": "lion cub",
+    "author": "Ray_Shrewsberry",
+    "author_url": "https://pixabay.com/users/Ray_Shrewsberry/",
+    "page": "https://pixabay.com/illustrations/ai-generated-lion-cub-nature-8498849/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/4-1.webp": {
+    "title": "dove bird",
+    "author": "Clker-Free-Vector-Images",
+    "author_url": "https://pixabay.com/users/Clker-Free-Vector-Images/",
+    "page": "https://pixabay.com/vectors/dove-peace-flying-olive-branch-41260/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1105
+  },
+  "assets/img/stories/4-2.webp": {
+    "title": "dove bird",
+    "author": "La_Petite_Femme",
+    "author_url": "https://pixabay.com/users/La_Petite_Femme/",
+    "page": "https://pixabay.com/illustrations/flower-booth-flower-stand-flowers-2382223/",
+    "license": "Pixabay Content License",
+    "width": 720,
+    "height": 1280
+  },
+  "assets/img/stories/4-3.webp": {
+    "title": "dove bird",
+    "author": "Mohamed_hassan",
+    "author_url": "https://pixabay.com/users/Mohamed_hassan/",
+    "page": "https://pixabay.com/vectors/world-peace-dove-bird-flying-8094131/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/4-4.webp": {
+    "title": "dove bird",
+    "author": "geralt",
+    "author_url": "https://pixabay.com/users/geralt/",
+    "page": "https://pixabay.com/illustrations/christmas-background-dove-peace-3426187/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 506
+  },
+  "assets/img/stories/5-1.webp": {
+    "title": "puppy",
+    "author": "ractapopulous",
+    "author_url": "https://pixabay.com/users/ractapopulous/",
+    "page": "https://pixabay.com/illustrations/cat-dog-cute-art-abstract-2489845/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 600
+  },
+  "assets/img/stories/5-2.webp": {
+    "title": "puppy",
+    "author": "Merio",
+    "author_url": "https://pixabay.com/users/Merio/",
+    "page": "https://pixabay.com/illustrations/dog-bath-cartoon-tub-grooming-pet-990304/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 791
+  },
+  "assets/img/stories/5-3.webp": {
+    "title": "puppy",
+    "author": "HGDesigns",
+    "author_url": "https://pixabay.com/users/HGDesigns/",
+    "page": "https://pixabay.com/illustrations/cute-dog-shaggy-fluffy-hairy-pet-9811214/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1200
+  },
+  "assets/img/stories/5-4.webp": {
+    "title": "puppy",
+    "author": "Ray_Shrewsberry",
+    "author_url": "https://pixabay.com/users/Ray_Shrewsberry/",
+    "page": "https://pixabay.com/illustrations/dog-puppy-pet-animal-mammal-5708495/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 584
+  },
+  "assets/img/stories/6-1.webp": {
+    "title": "cat",
+    "author": "freeillustrated",
+    "author_url": "https://pixabay.com/users/freeillustrated/",
+    "page": "https://pixabay.com/illustrations/woman-cat-pet-girl-animal-3077180/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/6-2.webp": {
+    "title": "cat",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/witch-witchcraft-broomstick-broom-155291/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 811
+  },
+  "assets/img/stories/6-3.webp": {
+    "title": "cat",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/animal-anthropomorphic-cat-feline-1298913/",
+    "license": "Pixabay Content License",
+    "width": 770,
+    "height": 1280
+  },
+  "assets/img/stories/6-4.webp": {
+    "title": "cat",
+    "author": "naobim",
+    "author_url": "https://pixabay.com/users/naobim/",
+    "page": "https://pixabay.com/illustrations/renovation-paint-cat-creativity-1262389/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 675
+  },
+  "assets/img/stories/7-1.webp": {
+    "title": "crocodile river",
+    "author": "CreativeCanvasDesign",
+    "author_url": "https://pixabay.com/users/CreativeCanvasDesign/",
+    "page": "https://pixabay.com/vectors/bird-crocodile-alligator-wildlife-10170694/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 600
+  },
+  "assets/img/stories/7-2.webp": {
+    "title": "crocodile river",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/alligator-cartoon-crocodile-danger-1300061/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 956
+  },
+  "assets/img/stories/7-3.webp": {
+    "title": "crocodile river",
+    "author": "GraphicMama-team",
+    "author_url": "https://pixabay.com/users/GraphicMama-team/",
+    "page": "https://pixabay.com/vectors/crocodile-green-animal-teeth-1458819/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 558
+  },
+  "assets/img/stories/7-4.webp": {
+    "title": "crocodile river",
+    "author": "TyliJura",
+    "author_url": "https://pixabay.com/users/TyliJura/",
+    "page": "https://pixabay.com/illustrations/ai-generated-crocodile-alligator-8518504/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 847
+  },
+  "assets/img/stories/8-1.webp": {
+    "title": "fox",
+    "author": "RosZie",
+    "author_url": "https://pixabay.com/users/RosZie/",
+    "page": "https://pixabay.com/illustrations/fox-balloon-heart-love-animal-7780326/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/8-2.webp": {
+    "title": "fox",
+    "author": "bcogwene",
+    "author_url": "https://pixabay.com/users/bcogwene/",
+    "page": "https://pixabay.com/illustrations/fox-love-kiss-animal-cute-cartoon-807315/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 716
+  },
+  "assets/img/stories/8-3.webp": {
+    "title": "fox",
+    "author": "fluffy_marry",
+    "author_url": "https://pixabay.com/users/fluffy_marry/",
+    "page": "https://pixabay.com/illustrations/fox-sleep-fall-sleepy-transparent-7405603/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 636
+  },
+  "assets/img/stories/8-4.webp": {
+    "title": "fox",
+    "author": "Hansuan_Fabregas",
+    "author_url": "https://pixabay.com/users/Hansuan_Fabregas/",
+    "page": "https://pixabay.com/vectors/fox-little-fox-love-happy-smiling-7633558/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/9-1.webp": {
+    "title": "mouse",
+    "author": "betidraws",
+    "author_url": "https://pixabay.com/users/betidraws/",
+    "page": "https://pixabay.com/illustrations/mouse-stars-fantasy-night-sky-8178945/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1125
+  },
+  "assets/img/stories/9-2.webp": {
+    "title": "mouse",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/rat-mouse-cheese-animal-mammal-152162/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 899
+  },
+  "assets/img/stories/9-3.webp": {
+    "title": "mouse",
+    "author": "Sunriseforever",
+    "author_url": "https://pixabay.com/users/Sunriseforever/",
+    "page": "https://pixabay.com/illustrations/mouse-creation-drawing-5305880/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 634
+  },
+  "assets/img/stories/9-4.webp": {
+    "title": "mouse",
+    "author": "u_9yuzg4m4m3",
+    "author_url": "https://pixabay.com/users/u_9yuzg4m4m3/",
+    "page": "https://pixabay.com/illustrations/mickey-mouse-disneyland-disney-7230486/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/10-1.webp": {
+    "title": "monkey banana",
+    "author": "2567670",
+    "author_url": "https://pixabay.com/users/2567670/",
+    "page": "https://pixabay.com/illustrations/monkey-toque-chimpanzee-banana-4706566/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 870
+  },
+  "assets/img/stories/10-2.webp": {
+    "title": "monkey banana",
+    "author": "2567670",
+    "author_url": "https://pixabay.com/users/2567670/",
+    "page": "https://pixabay.com/vectors/monkey-marmoset-banana-chimpanzee-4698962/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1077
+  },
+  "assets/img/stories/10-3.webp": {
+    "title": "monkey banana",
+    "author": "olenchic",
+    "author_url": "https://pixabay.com/users/olenchic/",
+    "page": "https://pixabay.com/illustrations/ai-generated-monkey-animal-cute-9322272/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/10-4.webp": {
+    "title": "monkey banana",
+    "author": "Syaibatulhamdi",
+    "author_url": "https://pixabay.com/users/Syaibatulhamdi/",
+    "page": "https://pixabay.com/illustrations/monkey-banana-cute-cartoon-mammal-9026690/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 514
+  },
+  "assets/img/stories/11-1.webp": {
+    "title": "donkey",
+    "author": "ractapopulous",
+    "author_url": "https://pixabay.com/users/ractapopulous/",
+    "page": "https://pixabay.com/illustrations/donkey-animal-art-abstract-2737253/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 652
+  },
+  "assets/img/stories/11-2.webp": {
+    "title": "donkey",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/animals-anthropomorphized-animals-2023323/",
+    "license": "Pixabay Content License",
+    "width": 805,
+    "height": 1280
+  },
+  "assets/img/stories/11-3.webp": {
+    "title": "donkey",
+    "author": "Prawny",
+    "author_url": "https://pixabay.com/users/Prawny/",
+    "page": "https://pixabay.com/illustrations/vintage-book-illustration-literature-1721947/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1279
+  },
+  "assets/img/stories/11-4.webp": {
+    "title": "donkey",
+    "author": "GDJ",
+    "author_url": "https://pixabay.com/users/GDJ/",
+    "page": "https://pixabay.com/vectors/donkey-animal-foal-baby-6387522/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 891
+  },
+  "assets/img/stories/12-1.webp": {
+    "title": "deer",
+    "author": "chumel_nz",
+    "author_url": "https://pixabay.com/users/chumel_nz/",
+    "page": "https://pixabay.com/illustrations/stag-wildflowers-boho-flowers-deer-1998855/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1159
+  },
+  "assets/img/stories/12-2.webp": {
+    "title": "deer",
+    "author": "monstreh",
+    "author_url": "https://pixabay.com/users/monstreh/",
+    "page": "https://pixabay.com/vectors/deer-pattern-design-animal-3894103/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/12-3.webp": {
+    "title": "deer",
+    "author": "Prawny",
+    "author_url": "https://pixabay.com/users/Prawny/",
+    "page": "https://pixabay.com/illustrations/vintage-retro-enchanted-charming-1653933/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 634
+  },
+  "assets/img/stories/12-4.webp": {
+    "title": "deer",
+    "author": "GDJ",
+    "author_url": "https://pixabay.com/users/GDJ/",
+    "page": "https://pixabay.com/vectors/deer-animal-fawn-baby-young-animal-6387533/",
+    "license": "Pixabay Content License",
+    "width": 822,
+    "height": 1280
+  },
+  "assets/img/stories/13-1.webp": {
+    "title": "farmer vegetables",
+    "author": "geralt",
+    "author_url": "https://pixabay.com/users/geralt/",
+    "page": "https://pixabay.com/illustrations/ai-generated-farmers-market-delhi-8189060/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 616
+  },
+  "assets/img/stories/13-2.webp": {
+    "title": "farmer vegetables",
+    "author": "olenchic",
+    "author_url": "https://pixabay.com/users/olenchic/",
+    "page": "https://pixabay.com/illustrations/pumpkin-vegetables-food-healthy-9934529/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/13-3.webp": {
+    "title": "farmer vegetables",
+    "author": "Clker-Free-Vector-Images",
+    "author_url": "https://pixabay.com/users/Clker-Free-Vector-Images/",
+    "page": "https://pixabay.com/vectors/vegetables-cartoon-root-vegetables-29063/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 515
+  },
+  "assets/img/stories/13-4.webp": {
+    "title": "farmer vegetables",
+    "author": "MC_QUATTRO",
+    "author_url": "https://pixabay.com/users/MC_QUATTRO/",
+    "page": "https://pixabay.com/illustrations/vegetable-grower-cat-vegetables-9447781/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/14-1.webp": {
+    "title": "crow",
+    "author": "Larisa-K",
+    "author_url": "https://pixabay.com/users/Larisa-K/",
+    "page": "https://pixabay.com/illustrations/halloween-holidays-mystery-72939/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 651
+  },
+  "assets/img/stories/14-2.webp": {
+    "title": "crow",
+    "author": "GraphicMama-team",
+    "author_url": "https://pixabay.com/users/GraphicMama-team/",
+    "page": "https://pixabay.com/vectors/scarecrow-halloween-pumpkin-crow-1456235/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 765
+  },
+  "assets/img/stories/14-3.webp": {
+    "title": "crow",
+    "author": "betidraws",
+    "author_url": "https://pixabay.com/users/betidraws/",
+    "page": "https://pixabay.com/illustrations/little-red-riding-hood-forest-nature-9724469/",
+    "license": "Pixabay Content License",
+    "width": 870,
+    "height": 1280
+  },
+  "assets/img/stories/14-4.webp": {
+    "title": "crow",
+    "author": "Alexas_Fotos",
+    "author_url": "https://pixabay.com/users/Alexas_Fotos/",
+    "page": "https://pixabay.com/illustrations/crow-night-gruesome-darkness-988218/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 581
+  },
+  "assets/img/stories/15-1.webp": {
+    "title": "hen chicken",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/chicken-hen-cute-family-animals-159496/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 692
+  },
+  "assets/img/stories/15-2.webp": {
+    "title": "hen chicken",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/poultry-chicken-animal-bird-farm-152370/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 590
+  },
+  "assets/img/stories/15-3.webp": {
+    "title": "hen chicken",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/abstract-chicken-egg-animal-bird-2023235/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 985
+  },
+  "assets/img/stories/15-4.webp": {
+    "title": "hen chicken",
+    "author": "MissPerfectKaos",
+    "author_url": "https://pixabay.com/users/MissPerfectKaos/",
+    "page": "https://pixabay.com/illustrations/chicken-hen-bird-animal-chick-8544360/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/16-1.webp": {
+    "title": "fawn",
+    "author": "moonflower5",
+    "author_url": "https://pixabay.com/users/moonflower5/",
+    "page": "https://pixabay.com/illustrations/ai-generated-fawn-winter-vintage-9234924/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/16-2.webp": {
+    "title": "fawn",
+    "author": "GDJ",
+    "author_url": "https://pixabay.com/users/GDJ/",
+    "page": "https://pixabay.com/vectors/deer-animal-fawn-baby-young-animal-6387533/",
+    "license": "Pixabay Content License",
+    "width": 822,
+    "height": 1280
+  },
+  "assets/img/stories/16-3.webp": {
+    "title": "fawn",
+    "author": "tanrıca",
+    "author_url": "https://pixabay.com/users/tanrıca/",
+    "page": "https://pixabay.com/illustrations/fawn-forest-scene-childrens-book-10435422/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/16-4.webp": {
+    "title": "fawn",
+    "author": "Ray_Shrewsberry",
+    "author_url": "https://pixabay.com/users/Ray_Shrewsberry/",
+    "page": "https://pixabay.com/illustrations/animal-deer-wildlife-mammal-wild-8544535/",
+    "license": "Pixabay Content License",
+    "width": 853,
+    "height": 1280
+  },
+  "assets/img/stories/17-1.webp": {
+    "title": "monkey tree",
+    "author": "tanrıca",
+    "author_url": "https://pixabay.com/users/tanrıca/",
+    "page": "https://pixabay.com/illustrations/lemur-monkey-primacy-cute-7471080/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 502
+  },
+  "assets/img/stories/17-2.webp": {
+    "title": "monkey tree",
+    "author": "2567670",
+    "author_url": "https://pixabay.com/users/2567670/",
+    "page": "https://pixabay.com/vectors/chimpanzee-on-the-tree-monkey-toque-4700974/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 916
+  },
+  "assets/img/stories/17-3.webp": {
+    "title": "monkey tree",
+    "author": "Mysticsartdesign",
+    "author_url": "https://pixabay.com/users/Mysticsartdesign/",
+    "page": "https://pixabay.com/illustrations/book-old-surreal-fantasy-pages-863418/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 562
+  },
+  "assets/img/stories/17-4.webp": {
+    "title": "monkey tree",
+    "author": "igla_111",
+    "author_url": "https://pixabay.com/users/igla_111/",
+    "page": "https://pixabay.com/vectors/monkey-mandala-artwork-art-786858/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 885
+  },
+  "assets/img/stories/18-1.webp": {
+    "title": "crow water",
+    "author": "13342248",
+    "author_url": "https://pixabay.com/users/13342248/",
+    "page": "https://pixabay.com/illustrations/crow-bird-animal-portrait-8791099/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1157
+  },
+  "assets/img/stories/18-2.webp": {
+    "title": "crow water",
+    "author": "Larisa-K",
+    "author_url": "https://pixabay.com/users/Larisa-K/",
+    "page": "https://pixabay.com/illustrations/halloween-holidays-mystery-72939/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 651
+  },
+  "assets/img/stories/18-3.webp": {
+    "title": "crow water",
+    "author": "betidraws",
+    "author_url": "https://pixabay.com/users/betidraws/",
+    "page": "https://pixabay.com/illustrations/little-red-riding-hood-forest-nature-9724469/",
+    "license": "Pixabay Content License",
+    "width": 870,
+    "height": 1280
+  },
+  "assets/img/stories/18-4.webp": {
+    "title": "crow water",
+    "author": "Alexas_Fotos",
+    "author_url": "https://pixabay.com/users/Alexas_Fotos/",
+    "page": "https://pixabay.com/illustrations/crow-night-gruesome-darkness-988218/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 581
+  },
+  "assets/img/stories/19-1.webp": {
+    "title": "woodcutter axe",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/lumber-lumberjack-axe-beard-forest-156795/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 818
+  },
+  "assets/img/stories/19-2.webp": {
+    "title": "woodcutter axe",
+    "author": "Edurs34",
+    "author_url": "https://pixabay.com/users/Edurs34/",
+    "page": "https://pixabay.com/illustrations/axe-icon-axe-icon-hatchet-tool-5585338/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 568
+  },
+  "assets/img/stories/19-3.webp": {
+    "title": "woodcutter axe",
+    "author": "olenchic",
+    "author_url": "https://pixabay.com/users/olenchic/",
+    "page": "https://pixabay.com/illustrations/beaver-rodent-woodcutter-axe-9335366/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/19-4.webp": {
+    "title": "woodcutter axe",
+    "author": "PrintOnDemandLibrary",
+    "author_url": "https://pixabay.com/users/PrintOnDemandLibrary/",
+    "page": "https://pixabay.com/illustrations/ai-generated-man-woodcutter-axe-8547642/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/20-1.webp": {
+    "title": "elephant jungle",
+    "author": "arunpnr",
+    "author_url": "https://pixabay.com/users/arunpnr/",
+    "page": "https://pixabay.com/illustrations/wild-animals-graphics-save-2500100/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 506
+  },
+  "assets/img/stories/20-2.webp": {
+    "title": "elephant jungle",
+    "author": "Saydung",
+    "author_url": "https://pixabay.com/users/Saydung/",
+    "page": "https://pixabay.com/vectors/elephant-giraffe-boy-child-fun-5709468/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/20-3.webp": {
+    "title": "elephant jungle",
+    "author": "La_Petite_Femme",
+    "author_url": "https://pixabay.com/users/La_Petite_Femme/",
+    "page": "https://pixabay.com/illustrations/elephants-balloons-love-heart-2757831/",
+    "license": "Pixabay Content License",
+    "width": 720,
+    "height": 1280
+  },
+  "assets/img/stories/20-4.webp": {
+    "title": "elephant jungle",
+    "author": "souandresantana",
+    "author_url": "https://pixabay.com/users/souandresantana/",
+    "page": "https://pixabay.com/vectors/elephant-animal-jungle-savannah-1598359/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 690
+  },
+  "assets/img/stories/21-1.webp": {
+    "title": "parrot",
+    "author": "susannp4",
+    "author_url": "https://pixabay.com/users/susannp4/",
+    "page": "https://pixabay.com/illustrations/parrot-bird-animal-painting-art-1525817/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1158
+  },
+  "assets/img/stories/21-2.webp": {
+    "title": "parrot",
+    "author": "GraphicMama-team",
+    "author_url": "https://pixabay.com/users/GraphicMama-team/",
+    "page": "https://pixabay.com/vectors/parrot-animal-bird-avian-clip-art-1417286/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 792
+  },
+  "assets/img/stories/21-3.webp": {
+    "title": "parrot",
+    "author": "Prawny",
+    "author_url": "https://pixabay.com/users/Prawny/",
+    "page": "https://pixabay.com/illustrations/vintage-book-illustration-1793194/",
+    "license": "Pixabay Content License",
+    "width": 814,
+    "height": 1280
+  },
+  "assets/img/stories/21-4.webp": {
+    "title": "parrot",
+    "author": "ZAIDoopro",
+    "author_url": "https://pixabay.com/users/ZAIDoopro/",
+    "page": "https://pixabay.com/illustrations/bird-parrot-ornithology-painting-4449891/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/22-1.webp": {
+    "title": "frog",
+    "author": "geralt",
+    "author_url": "https://pixabay.com/users/geralt/",
+    "page": "https://pixabay.com/illustrations/ai-generated-frog-books-knowledge-8411080/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 509
+  },
+  "assets/img/stories/22-2.webp": {
+    "title": "frog",
+    "author": "arigrafikstudio",
+    "author_url": "https://pixabay.com/users/arigrafikstudio/",
+    "page": "https://pixabay.com/vectors/frog-toad-water-green-frog-6026117/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/22-3.webp": {
+    "title": "frog",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/frog-amphibian-animal-tree-frog-157934/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 933
+  },
+  "assets/img/stories/22-4.webp": {
+    "title": "frog",
+    "author": "GDJ",
+    "author_url": "https://pixabay.com/users/GDJ/",
+    "page": "https://pixabay.com/vectors/frog-animal-line-art-amphibian-8599122/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 837
+  },
+  "assets/img/stories/23-1.webp": {
+    "title": "sea turtle",
+    "author": "GDJ",
+    "author_url": "https://pixabay.com/users/GDJ/",
+    "page": "https://pixabay.com/vectors/sea-turtle-floral-flowers-2952470/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1125
+  },
+  "assets/img/stories/23-2.webp": {
+    "title": "sea turtle",
+    "author": "Clker-Free-Vector-Images",
+    "author_url": "https://pixabay.com/users/Clker-Free-Vector-Images/",
+    "page": "https://pixabay.com/vectors/animal-turtle-wildlife-47047/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 676
+  },
+  "assets/img/stories/23-3.webp": {
+    "title": "sea turtle",
+    "author": "GDJ",
+    "author_url": "https://pixabay.com/users/GDJ/",
+    "page": "https://pixabay.com/vectors/sea-turtle-animal-line-art-marine-7923608/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 572
+  },
+  "assets/img/stories/23-4.webp": {
+    "title": "sea turtle",
+    "author": "GDJ",
+    "author_url": "https://pixabay.com/users/GDJ/",
+    "page": "https://pixabay.com/vectors/sea-turtle-animal-floral-chromatic-3199593/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 514
+  },
+  "assets/img/stories/24-1.webp": {
+    "title": "monkey jungle",
+    "author": "GraphicMama-team",
+    "author_url": "https://pixabay.com/users/GraphicMama-team/",
+    "page": "https://pixabay.com/vectors/exotic-animals-leopard-monkey-1456726/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 505
+  },
+  "assets/img/stories/24-2.webp": {
+    "title": "monkey jungle",
+    "author": "Glamazon",
+    "author_url": "https://pixabay.com/users/Glamazon/",
+    "page": "https://pixabay.com/vectors/monkey-chimp-ape-chimpanzee-animal-474147/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 992
+  },
+  "assets/img/stories/24-3.webp": {
+    "title": "monkey jungle",
+    "author": "igla_111",
+    "author_url": "https://pixabay.com/users/igla_111/",
+    "page": "https://pixabay.com/vectors/monkey-mandala-artwork-art-786858/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 885
+  },
+  "assets/img/stories/24-4.webp": {
+    "title": "monkey jungle",
+    "author": "Satyress",
+    "author_url": "https://pixabay.com/users/Satyress/",
+    "page": "https://pixabay.com/illustrations/jungle-monkey-three-to-hear-speak-4376028/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 562
+  },
+  "assets/img/stories/25-1.webp": {
+    "title": "golden bird",
+    "author": "2857440",
+    "author_url": "https://pixabay.com/users/2857440/",
+    "page": "https://pixabay.com/illustrations/ai-generated-bird-parrot-7853097/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 600
+  },
+  "assets/img/stories/25-2.webp": {
+    "title": "golden bird",
+    "author": "CreativeCanvasDesign",
+    "author_url": "https://pixabay.com/users/CreativeCanvasDesign/",
+    "page": "https://pixabay.com/vectors/owl-bird-of-prey-animal-wildlife-10355110/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/25-3.webp": {
+    "title": "golden bird",
+    "author": "MissyWhimsyArt",
+    "author_url": "https://pixabay.com/users/MissyWhimsyArt/",
+    "page": "https://pixabay.com/illustrations/owl-cute-bird-straw-hat-10333674/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/25-4.webp": {
+    "title": "golden bird",
+    "author": "tanrıca",
+    "author_url": "https://pixabay.com/users/tanrıca/",
+    "page": "https://pixabay.com/illustrations/eagle-bird-nest-chicks-nature-10452527/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/26-1.webp": {
+    "title": "indian king",
+    "author": "Mohamed_hassan",
+    "author_url": "https://pixabay.com/users/Mohamed_hassan/",
+    "page": "https://pixabay.com/vectors/rama-silhouette-ram-festival-arrow-8635700/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 645
+  },
+  "assets/img/stories/26-2.webp": {
+    "title": "indian king",
+    "author": "Lahiru_Ferdinandiz",
+    "author_url": "https://pixabay.com/users/Lahiru_Ferdinandiz/",
+    "page": "https://pixabay.com/illustrations/king-ashoka-dharmashoka-ancient-king-8537288/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 600
+  },
+  "assets/img/stories/26-3.webp": {
+    "title": "indian king",
+    "author": "betidraws",
+    "author_url": "https://pixabay.com/users/betidraws/",
+    "page": "https://pixabay.com/illustrations/little-red-riding-hood-forest-nature-9724469/",
+    "license": "Pixabay Content License",
+    "width": 870,
+    "height": 1280
+  },
+  "assets/img/stories/26-4.webp": {
+    "title": "indian king",
+    "author": "Hansuan_Fabregas",
+    "author_url": "https://pixabay.com/users/Hansuan_Fabregas/",
+    "page": "https://pixabay.com/illustrations/king-otter-otter-fable-parable-7556125/",
+    "license": "Pixabay Content License",
+    "width": 876,
+    "height": 1280
+  },
+  "assets/img/stories/27-1.webp": {
+    "title": "king court",
+    "author": "Mohamed_hassan",
+    "author_url": "https://pixabay.com/users/Mohamed_hassan/",
+    "page": "https://pixabay.com/vectors/judgment-punishment-justice-court-8442199/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 643
+  },
+  "assets/img/stories/27-2.webp": {
+    "title": "king court",
+    "author": "GDJ",
+    "author_url": "https://pixabay.com/users/GDJ/",
+    "page": "https://pixabay.com/vectors/woman-petitioner-court-king-7492352/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 619
+  },
+  "assets/img/stories/27-3.webp": {
+    "title": "king court",
+    "author": "Prawny",
+    "author_url": "https://pixabay.com/users/Prawny/",
+    "page": "https://pixabay.com/illustrations/vintage-book-illustration-1794784/",
+    "license": "Pixabay Content License",
+    "width": 820,
+    "height": 1280
+  },
+  "assets/img/stories/27-4.webp": {
+    "title": "king court",
+    "author": "GDJ",
+    "author_url": "https://pixabay.com/users/GDJ/",
+    "page": "https://pixabay.com/vectors/king-queen-line-art-service-serve-5302931/",
+    "license": "Pixabay Content License",
+    "width": 889,
+    "height": 1280
+  },
+  "assets/img/stories/28-1.webp": {
+    "title": "well bucket",
+    "author": "Jazella",
+    "author_url": "https://pixabay.com/users/Jazella/",
+    "page": "https://pixabay.com/illustrations/wishing-well-bucket-garden-water-3995110/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/28-2.webp": {
+    "title": "well bucket",
+    "author": "flutie8211",
+    "author_url": "https://pixabay.com/users/flutie8211/",
+    "page": "https://pixabay.com/illustrations/well-water-bucket-reel-rope-8613203/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1040
+  },
+  "assets/img/stories/28-3.webp": {
+    "title": "well bucket",
+    "author": "betidraws",
+    "author_url": "https://pixabay.com/users/betidraws/",
+    "page": "https://pixabay.com/illustrations/toddler-baby-teddy-bear-cute-stars-8297939/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1200
+  },
+  "assets/img/stories/28-4.webp": {
+    "title": "well bucket",
+    "author": "PixelLabs",
+    "author_url": "https://pixabay.com/users/PixelLabs/",
+    "page": "https://pixabay.com/illustrations/ai-generated-well-water-well-9711733/",
+    "license": "Pixabay Content License",
+    "width": 853,
+    "height": 1280
+  },
+  "assets/img/stories/29-1.webp": {
+    "title": "minister",
+    "author": "Sambeetarts",
+    "author_url": "https://pixabay.com/users/Sambeetarts/",
+    "page": "https://pixabay.com/illustrations/narendra-modi-modi-2112081/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/29-2.webp": {
+    "title": "minister",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/britain-churchill-famous-people-1299836/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 800
+  },
+  "assets/img/stories/29-3.webp": {
+    "title": "minister",
+    "author": "betidraws",
+    "author_url": "https://pixabay.com/users/betidraws/",
+    "page": "https://pixabay.com/illustrations/little-red-riding-hood-forest-nature-9724469/",
+    "license": "Pixabay Content License",
+    "width": 870,
+    "height": 1280
+  },
+  "assets/img/stories/29-4.webp": {
+    "title": "minister",
+    "author": "hobim",
+    "author_url": "https://pixabay.com/users/hobim/",
+    "page": "https://pixabay.com/illustrations/ai-generated-girl-child-innocent-7980663/",
+    "license": "Pixabay Content License",
+    "width": 853,
+    "height": 1280
+  },
+  "assets/img/stories/30-1.webp": {
+    "title": "horse rider",
+    "author": "MythologyArt",
+    "author_url": "https://pixabay.com/users/MythologyArt/",
+    "page": "https://pixabay.com/illustrations/horse-rider-the-wild-hunt-paganism-8673416/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 600
+  },
+  "assets/img/stories/30-2.webp": {
+    "title": "horse rider",
+    "author": "Prettysleepy",
+    "author_url": "https://pixabay.com/users/Prettysleepy/",
+    "page": "https://pixabay.com/illustrations/horse-rider-trick-advertising-5307402/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1195
+  },
+  "assets/img/stories/30-3.webp": {
+    "title": "horse rider",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/boy-drawing-horse-male-man-1297717/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 620
+  },
+  "assets/img/stories/30-4.webp": {
+    "title": "horse rider",
+    "author": "Ennaej",
+    "author_url": "https://pixabay.com/users/Ennaej/",
+    "page": "https://pixabay.com/illustrations/ai-generated-horse-riding-woman-8491334/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 904
+  },
+  "assets/img/stories/31-1.webp": {
+    "title": "palace",
+    "author": "geralt",
+    "author_url": "https://pixabay.com/users/geralt/",
+    "page": "https://pixabay.com/illustrations/taj-mahal-india-sightseeing-palace-8205351/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 616
+  },
+  "assets/img/stories/31-2.webp": {
+    "title": "palace",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/castle-fairy-tale-fantasy-medieval-1296932/",
+    "license": "Pixabay Content License",
+    "width": 881,
+    "height": 1280
+  },
+  "assets/img/stories/31-3.webp": {
+    "title": "palace",
+    "author": "simisi1",
+    "author_url": "https://pixabay.com/users/simisi1/",
+    "page": "https://pixabay.com/illustrations/genie-desert-aladin-alladin-lamp-4198396/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 536
+  },
+  "assets/img/stories/31-4.webp": {
+    "title": "palace",
+    "author": "GDJ",
+    "author_url": "https://pixabay.com/users/GDJ/",
+    "page": "https://pixabay.com/vectors/palace-roman-line-art-architecture-5782990/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 684
+  },
+  "assets/img/stories/32-1.webp": {
+    "title": "swan",
+    "author": "ractapopulous",
+    "author_url": "https://pixabay.com/users/ractapopulous/",
+    "page": "https://pixabay.com/illustrations/swan-water-bird-art-abstract-2409696/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 600
+  },
+  "assets/img/stories/32-2.webp": {
+    "title": "swan",
+    "author": "Ray_Shrewsberry",
+    "author_url": "https://pixabay.com/users/Ray_Shrewsberry/",
+    "page": "https://pixabay.com/illustrations/ballerina-ballet-dance-dancer-9887047/",
+    "license": "Pixabay Content License",
+    "width": 853,
+    "height": 1280
+  },
+  "assets/img/stories/32-3.webp": {
+    "title": "swan",
+    "author": "Prawny",
+    "author_url": "https://pixabay.com/users/Prawny/",
+    "page": "https://pixabay.com/illustrations/vintage-retro-enchanted-charming-1653929/",
+    "license": "Pixabay Content License",
+    "width": 893,
+    "height": 1280
+  },
+  "assets/img/stories/32-4.webp": {
+    "title": "swan",
+    "author": "hobim",
+    "author_url": "https://pixabay.com/users/hobim/",
+    "page": "https://pixabay.com/illustrations/lamb-dance-ballet-swan-lake-8618051/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/33-1.webp": {
+    "title": "potter",
+    "author": "_Alicja_",
+    "author_url": "https://pixabay.com/users/_Alicja_/",
+    "page": "https://pixabay.com/illustrations/pottery-clay-handicraft-artist-9586827/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 630
+  },
+  "assets/img/stories/33-2.webp": {
+    "title": "potter",
+    "author": "kimsyy",
+    "author_url": "https://pixabay.com/users/kimsyy/",
+    "page": "https://pixabay.com/illustrations/harry-potter-alraune-mandrake-ink-3973078/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1273
+  },
+  "assets/img/stories/33-3.webp": {
+    "title": "potter",
+    "author": "betidraws",
+    "author_url": "https://pixabay.com/users/betidraws/",
+    "page": "https://pixabay.com/illustrations/toddler-baby-teddy-bear-cute-stars-8297939/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1200
+  },
+  "assets/img/stories/33-4.webp": {
+    "title": "potter",
+    "author": "Claudio-Duart-Designer",
+    "author_url": "https://pixabay.com/users/Claudio-Duart-Designer/",
+    "page": "https://pixabay.com/illustrations/ai-generated-clay-potter-vase-8702755/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/34-1.webp": {
+    "title": "donkey",
+    "author": "ractapopulous",
+    "author_url": "https://pixabay.com/users/ractapopulous/",
+    "page": "https://pixabay.com/illustrations/donkey-animal-art-abstract-2737253/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 652
+  },
+  "assets/img/stories/34-2.webp": {
+    "title": "donkey",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/animals-anthropomorphized-animals-2023323/",
+    "license": "Pixabay Content License",
+    "width": 805,
+    "height": 1280
+  },
+  "assets/img/stories/34-3.webp": {
+    "title": "donkey",
+    "author": "Prawny",
+    "author_url": "https://pixabay.com/users/Prawny/",
+    "page": "https://pixabay.com/illustrations/vintage-book-illustration-literature-1721947/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1279
+  },
+  "assets/img/stories/34-4.webp": {
+    "title": "donkey",
+    "author": "GDJ",
+    "author_url": "https://pixabay.com/users/GDJ/",
+    "page": "https://pixabay.com/vectors/donkey-animal-foal-baby-6387522/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 891
+  },
+  "assets/img/stories/35-1.webp": {
+    "title": "throne",
+    "author": "Hansuan_Fabregas",
+    "author_url": "https://pixabay.com/users/Hansuan_Fabregas/",
+    "page": "https://pixabay.com/illustrations/ai-generated-woman-queen-royal-8234272/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 600
+  },
+  "assets/img/stories/35-2.webp": {
+    "title": "throne",
+    "author": "squarefrog",
+    "author_url": "https://pixabay.com/users/squarefrog/",
+    "page": "https://pixabay.com/illustrations/skeleton-throne-gothic-skull-king-7551681/",
+    "license": "Pixabay Content License",
+    "width": 784,
+    "height": 1280
+  },
+  "assets/img/stories/35-3.webp": {
+    "title": "throne",
+    "author": "Prawny",
+    "author_url": "https://pixabay.com/users/Prawny/",
+    "page": "https://pixabay.com/illustrations/vintage-book-illustration-1794784/",
+    "license": "Pixabay Content License",
+    "width": 820,
+    "height": 1280
+  },
+  "assets/img/stories/35-4.webp": {
+    "title": "throne",
+    "author": "aahihi",
+    "author_url": "https://pixabay.com/users/aahihi/",
+    "page": "https://pixabay.com/illustrations/ai-generated-woman-queen-throne-8182677/",
+    "license": "Pixabay Content License",
+    "width": 853,
+    "height": 1280
+  },
+  "assets/img/stories/36-1.webp": {
+    "title": "garden flowers",
+    "author": "lucianapappdesign",
+    "author_url": "https://pixabay.com/users/lucianapappdesign/",
+    "page": "https://pixabay.com/illustrations/flowers-watercolor-decoration-plant-4151512/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1165
+  },
+  "assets/img/stories/36-2.webp": {
+    "title": "garden flowers",
+    "author": "Bingodesigns",
+    "author_url": "https://pixabay.com/users/Bingodesigns/",
+    "page": "https://pixabay.com/illustrations/flowers-plant-grass-bloom-blossom-421415/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 720
+  },
+  "assets/img/stories/36-3.webp": {
+    "title": "garden flowers",
+    "author": "geralt",
+    "author_url": "https://pixabay.com/users/geralt/",
+    "page": "https://pixabay.com/illustrations/cottage-fairytale-red-door-10089989/",
+    "license": "Pixabay Content License",
+    "width": 853,
+    "height": 1280
+  },
+  "assets/img/stories/36-4.webp": {
+    "title": "garden flowers",
+    "author": "Hansuan_Fabregas",
+    "author_url": "https://pixabay.com/users/Hansuan_Fabregas/",
+    "page": "https://pixabay.com/illustrations/cat-kitten-cute-cat-flowers-7472818/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/37-1.webp": {
+    "title": "baby",
+    "author": "betidraws",
+    "author_url": "https://pixabay.com/users/betidraws/",
+    "page": "https://pixabay.com/illustrations/toddler-baby-teddy-bear-cute-stars-8297939/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1200
+  },
+  "assets/img/stories/37-2.webp": {
+    "title": "baby",
+    "author": "2567670",
+    "author_url": "https://pixabay.com/users/2567670/",
+    "page": "https://pixabay.com/vectors/baby-elephant-cartoon-elephant-3526681/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 750
+  },
+  "assets/img/stories/37-3.webp": {
+    "title": "baby",
+    "author": "Prawny",
+    "author_url": "https://pixabay.com/users/Prawny/",
+    "page": "https://pixabay.com/illustrations/vintage-book-illustration-literature-1721955/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1068
+  },
+  "assets/img/stories/37-4.webp": {
+    "title": "baby",
+    "author": "GDJ",
+    "author_url": "https://pixabay.com/users/GDJ/",
+    "page": "https://pixabay.com/vectors/octopus-baby-animal-cute-kawaii-6387502/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 669
+  },
+  "assets/img/stories/38-1.webp": {
+    "title": "thief night",
+    "author": "betidraws",
+    "author_url": "https://pixabay.com/users/betidraws/",
+    "page": "https://pixabay.com/illustrations/mouse-stars-fantasy-night-sky-8178945/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1125
+  },
+  "assets/img/stories/38-2.webp": {
+    "title": "thief night",
+    "author": "prettysleepy1",
+    "author_url": "https://pixabay.com/users/prettysleepy1/",
+    "page": "https://pixabay.com/vectors/mobster-criminal-bad-guy-man-male-4192530/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 675
+  },
+  "assets/img/stories/38-3.webp": {
+    "title": "thief night",
+    "author": "betidraws",
+    "author_url": "https://pixabay.com/users/betidraws/",
+    "page": "https://pixabay.com/illustrations/childrens-book-8304585/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1145
+  },
+  "assets/img/stories/38-4.webp": {
+    "title": "thief night",
+    "author": "Bellinon",
+    "author_url": "https://pixabay.com/users/Bellinon/",
+    "page": "https://pixabay.com/vectors/cloud-dream-star-night-moon-cute-3719093/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/39-1.webp": {
+    "title": "mother",
+    "author": "avalonbears",
+    "author_url": "https://pixabay.com/users/avalonbears/",
+    "page": "https://pixabay.com/illustrations/watercolor-roses-and-basket-2144246/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 636
+  },
+  "assets/img/stories/39-2.webp": {
+    "title": "mother",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/boy-child-comic-characters-dad-1300136/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 666
+  },
+  "assets/img/stories/39-3.webp": {
+    "title": "mother",
+    "author": "BiancaVanDijk",
+    "author_url": "https://pixabay.com/users/BiancaVanDijk/",
+    "page": "https://pixabay.com/illustrations/giraffes-safari-newborn-animals-7938386/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/39-4.webp": {
+    "title": "mother",
+    "author": "Saydung",
+    "author_url": "https://pixabay.com/users/Saydung/",
+    "page": "https://pixabay.com/illustrations/finger-art-family-rain-umbrella-5783837/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 600
+  },
+  "assets/img/stories/40-1.webp": {
+    "title": "jeweler",
+    "author": "Prawny",
+    "author_url": "https://pixabay.com/users/Prawny/",
+    "page": "https://pixabay.com/illustrations/watercolour-watercolor-paint-ink-1768925/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 696
+  },
+  "assets/img/stories/40-2.webp": {
+    "title": "jeweler",
+    "author": "RichardsDrawings",
+    "author_url": "https://pixabay.com/users/RichardsDrawings/",
+    "page": "https://pixabay.com/illustrations/cartoon-sword-knight-jewel-field-10077168/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1157
+  },
+  "assets/img/stories/40-3.webp": {
+    "title": "jeweler",
+    "author": "betidraws",
+    "author_url": "https://pixabay.com/users/betidraws/",
+    "page": "https://pixabay.com/illustrations/little-red-riding-hood-forest-nature-9724469/",
+    "license": "Pixabay Content License",
+    "width": 870,
+    "height": 1280
+  },
+  "assets/img/stories/40-4.webp": {
+    "title": "jeweler",
+    "author": "martavalentinyi",
+    "author_url": "https://pixabay.com/users/martavalentinyi/",
+    "page": "https://pixabay.com/illustrations/beautiful-krishna-baby-cute-7803637/",
+    "license": "Pixabay Content License",
+    "width": 769,
+    "height": 1280
+  },
+  "assets/img/stories/41-1.webp": {
+    "title": "kitten",
+    "author": "JenDigitalArt",
+    "author_url": "https://pixabay.com/users/JenDigitalArt/",
+    "page": "https://pixabay.com/illustrations/cat-winter-cartoon-snowfall-snow-3643705/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1020
+  },
+  "assets/img/stories/41-2.webp": {
+    "title": "kitten",
+    "author": "siberian_beard",
+    "author_url": "https://pixabay.com/users/siberian_beard/",
+    "page": "https://pixabay.com/vectors/pattern-pink-cute-sweet-fur-cats-1477380/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/41-3.webp": {
+    "title": "kitten",
+    "author": "BiancaVanDijk",
+    "author_url": "https://pixabay.com/users/BiancaVanDijk/",
+    "page": "https://pixabay.com/illustrations/cat-books-cartoon-nature-animal-8415620/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/41-4.webp": {
+    "title": "kitten",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/animal-cat-drawing-feline-kitten-1296305/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 738
+  },
+  "assets/img/stories/42-1.webp": {
+    "title": "well water",
+    "author": "Jazella",
+    "author_url": "https://pixabay.com/users/Jazella/",
+    "page": "https://pixabay.com/illustrations/wishing-well-bucket-garden-water-3995110/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/42-2.webp": {
+    "title": "well water",
+    "author": "flutie8211",
+    "author_url": "https://pixabay.com/users/flutie8211/",
+    "page": "https://pixabay.com/illustrations/well-water-bucket-reel-rope-8613203/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1040
+  },
+  "assets/img/stories/42-3.webp": {
+    "title": "well water",
+    "author": "betidraws",
+    "author_url": "https://pixabay.com/users/betidraws/",
+    "page": "https://pixabay.com/illustrations/little-red-riding-hood-forest-nature-9724469/",
+    "license": "Pixabay Content License",
+    "width": 870,
+    "height": 1280
+  },
+  "assets/img/stories/42-4.webp": {
+    "title": "well water",
+    "author": "CDD20",
+    "author_url": "https://pixabay.com/users/CDD20/",
+    "page": "https://pixabay.com/illustrations/creativity-thinking-painting-4912420/",
+    "license": "Pixabay Content License",
+    "width": 720,
+    "height": 1280
+  },
+  "assets/img/stories/43-1.webp": {
+    "title": "mango tree",
+    "author": "Creativograf",
+    "author_url": "https://pixabay.com/users/Creativograf/",
+    "page": "https://pixabay.com/illustrations/mango-mango-tree-fruit-tree-6875556/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/43-2.webp": {
+    "title": "mango tree",
+    "author": "JulyTRe",
+    "author_url": "https://pixabay.com/users/JulyTRe/",
+    "page": "https://pixabay.com/illustrations/mango-fruits-food-nature-healthy-8960902/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 544
+  },
+  "assets/img/stories/43-3.webp": {
+    "title": "mango tree",
+    "author": "Mysticsartdesign",
+    "author_url": "https://pixabay.com/users/Mysticsartdesign/",
+    "page": "https://pixabay.com/illustrations/book-old-surreal-fantasy-pages-863418/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 562
+  },
+  "assets/img/stories/43-4.webp": {
+    "title": "mango tree",
+    "author": "wixin_56k",
+    "author_url": "https://pixabay.com/users/wixin_56k/",
+    "page": "https://pixabay.com/illustrations/tree-christmas-tree-christmas-4633768/",
+    "license": "Pixabay Content License",
+    "width": 853,
+    "height": 1280
+  },
+  "assets/img/stories/44-1.webp": {
+    "title": "diamond ring",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/diamond-ring-jewelry-jewel-1295824/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1208
+  },
+  "assets/img/stories/44-2.webp": {
+    "title": "diamond ring",
+    "author": "Clker-Free-Vector-Images",
+    "author_url": "https://pixabay.com/users/Clker-Free-Vector-Images/",
+    "page": "https://pixabay.com/vectors/ring-cartoon-diamond-big-isolated-309550/",
+    "license": "Pixabay Content License",
+    "width": 826,
+    "height": 1280
+  },
+  "assets/img/stories/44-3.webp": {
+    "title": "diamond ring",
+    "author": "Clker-Free-Vector-Images",
+    "author_url": "https://pixabay.com/users/Clker-Free-Vector-Images/",
+    "page": "https://pixabay.com/vectors/ring-silver-jewelry-wedding-ring-33573/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 696
+  },
+  "assets/img/stories/44-4.webp": {
+    "title": "diamond ring",
+    "author": "18706286",
+    "author_url": "https://pixabay.com/users/18706286/",
+    "page": "https://pixabay.com/illustrations/chocolate-valentine-pattern-5910665/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/45-1.webp": {
+    "title": "white horse",
+    "author": "deavvi",
+    "author_url": "https://pixabay.com/users/deavvi/",
+    "page": "https://pixabay.com/illustrations/horse-colorful-horse-painted-horse-3317004/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 506
+  },
+  "assets/img/stories/45-2.webp": {
+    "title": "white horse",
+    "author": "KaylinArt",
+    "author_url": "https://pixabay.com/users/KaylinArt/",
+    "page": "https://pixabay.com/illustrations/unicorn-clipart-blue-pony-cute-2128415/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1065
+  },
+  "assets/img/stories/45-3.webp": {
+    "title": "white horse",
+    "author": "popmelon",
+    "author_url": "https://pixabay.com/users/popmelon/",
+    "page": "https://pixabay.com/illustrations/unicorn-cute-magic-fantasy-horse-8376844/",
+    "license": "Pixabay Content License",
+    "width": 853,
+    "height": 1280
+  },
+  "assets/img/stories/45-4.webp": {
+    "title": "white horse",
+    "author": "WhyXing",
+    "author_url": "https://pixabay.com/users/WhyXing/",
+    "page": "https://pixabay.com/illustrations/horse-galloping-ink-drawing-9970507/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1200
+  },
+  "assets/img/stories/46-1.webp": {
+    "title": "painter",
+    "author": "Hansuan_Fabregas",
+    "author_url": "https://pixabay.com/users/Hansuan_Fabregas/",
+    "page": "https://pixabay.com/illustrations/ai-generated-frida-kahlo-8113437/",
+    "license": "Pixabay Content License",
+    "width": 853,
+    "height": 1280
+  },
+  "assets/img/stories/46-2.webp": {
+    "title": "painter",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/painter-tux-art-artist-beret-161318/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 840
+  },
+  "assets/img/stories/46-3.webp": {
+    "title": "painter",
+    "author": "betidraws",
+    "author_url": "https://pixabay.com/users/betidraws/",
+    "page": "https://pixabay.com/illustrations/little-red-riding-hood-forest-nature-9724469/",
+    "license": "Pixabay Content License",
+    "width": 870,
+    "height": 1280
+  },
+  "assets/img/stories/46-4.webp": {
+    "title": "painter",
+    "author": "AlexandraZeres",
+    "author_url": "https://pixabay.com/users/AlexandraZeres/",
+    "page": "https://pixabay.com/illustrations/drawing-sketch-colored-cute-doodle-3706735/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1172
+  },
+  "assets/img/stories/47-1.webp": {
+    "title": "gold coins",
+    "author": "QuinceCreative",
+    "author_url": "https://pixabay.com/users/QuinceCreative/",
+    "page": "https://pixabay.com/illustrations/bitcoin-cryptocurrency-virtual-3024279/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 506
+  },
+  "assets/img/stories/47-2.webp": {
+    "title": "gold coins",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/savings-box-pig-piggy-bank-money-161876/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 750
+  },
+  "assets/img/stories/47-3.webp": {
+    "title": "gold coins",
+    "author": "CheeseHand-Sam",
+    "author_url": "https://pixabay.com/users/CheeseHand-Sam/",
+    "page": "https://pixabay.com/illustrations/gold-treasure-pirate-coins-wealth-7980065/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 675
+  },
+  "assets/img/stories/47-4.webp": {
+    "title": "gold coins",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/booty-chest-gold-pirate-treasure-153593/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 879
+  },
+  "assets/img/stories/48-1.webp": {
+    "title": "moon night",
+    "author": "NickyPe",
+    "author_url": "https://pixabay.com/users/NickyPe/",
+    "page": "https://pixabay.com/illustrations/landscape-night-moon-moonlight-9198927/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 506
+  },
+  "assets/img/stories/48-2.webp": {
+    "title": "moon night",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/witch-witchcraft-broomstick-broom-155291/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 811
+  },
+  "assets/img/stories/48-3.webp": {
+    "title": "moon night",
+    "author": "Hansuan_Fabregas",
+    "author_url": "https://pixabay.com/users/Hansuan_Fabregas/",
+    "page": "https://pixabay.com/illustrations/kid-design-comics-girl-7618343/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/48-4.webp": {
+    "title": "moon night",
+    "author": "GDJ",
+    "author_url": "https://pixabay.com/users/GDJ/",
+    "page": "https://pixabay.com/vectors/cats-animals-night-crescent-moon-7727977/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 736
+  },
+  "assets/img/stories/49-1.webp": {
+    "title": "indian food",
+    "author": "TheDigitalArtist",
+    "author_url": "https://pixabay.com/users/TheDigitalArtist/",
+    "page": "https://pixabay.com/illustrations/ai-generated-curry-indian-cuisine-8036516/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1125
+  },
+  "assets/img/stories/49-2.webp": {
+    "title": "indian food",
+    "author": "DuckaHouse",
+    "author_url": "https://pixabay.com/users/DuckaHouse/",
+    "page": "https://pixabay.com/illustrations/curry-puff-curry-puff-bread-starch-4623662/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/49-3.webp": {
+    "title": "indian food",
+    "author": "betidraws",
+    "author_url": "https://pixabay.com/users/betidraws/",
+    "page": "https://pixabay.com/illustrations/toddler-baby-teddy-bear-cute-stars-8297939/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1200
+  },
+  "assets/img/stories/49-4.webp": {
+    "title": "indian food",
+    "author": "Clker-Free-Vector-Images",
+    "author_url": "https://pixabay.com/users/Clker-Free-Vector-Images/",
+    "page": "https://pixabay.com/vectors/vegetables-cartoon-root-vegetables-29063/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 515
+  },
+  "assets/img/stories/50-1.webp": {
+    "title": "judge",
+    "author": "souandresantana",
+    "author_url": "https://pixabay.com/users/souandresantana/",
+    "page": "https://pixabay.com/illustrations/justice-balance-attorney-judge-7998693/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 600
+  },
+  "assets/img/stories/50-2.webp": {
+    "title": "judge",
+    "author": "Mohamed_hassan",
+    "author_url": "https://pixabay.com/users/Mohamed_hassan/",
+    "page": "https://pixabay.com/vectors/lawyer-judge-law-cartoon-man-7325293/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 643
+  },
+  "assets/img/stories/50-3.webp": {
+    "title": "judge",
+    "author": "Mohamed_hassan",
+    "author_url": "https://pixabay.com/users/Mohamed_hassan/",
+    "page": "https://pixabay.com/vectors/judgment-punishment-justice-court-8442199/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 643
+  },
+  "assets/img/stories/50-4.webp": {
+    "title": "judge",
+    "author": "GDJ",
+    "author_url": "https://pixabay.com/users/GDJ/",
+    "page": "https://pixabay.com/vectors/court-judge-line-art-courtroom-5161278/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 637
+  },
+  "assets/img/stories/51-1.webp": {
+    "title": "treasure chest",
+    "author": "Clker-Free-Vector-Images",
+    "author_url": "https://pixabay.com/users/Clker-Free-Vector-Images/",
+    "page": "https://pixabay.com/vectors/treasure-chest-treasure-gold-box-312239/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 630
+  },
+  "assets/img/stories/51-2.webp": {
+    "title": "treasure chest",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/booty-chest-gold-pirate-treasure-153593/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 879
+  },
+  "assets/img/stories/51-3.webp": {
+    "title": "treasure chest",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/treasure-treasure-chest-gold-chest-160004/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 888
+  },
+  "assets/img/stories/51-4.webp": {
+    "title": "treasure chest",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/chest-gold-lock-money-pirate-1294559/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 790
+  },
+  "assets/img/stories/52-1.webp": {
+    "title": "squirrel",
+    "author": "ArtsyBee",
+    "author_url": "https://pixabay.com/users/ArtsyBee/",
+    "page": "https://pixabay.com/illustrations/noel-squirrel-watercolor-tag-2982970/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 991
+  },
+  "assets/img/stories/52-2.webp": {
+    "title": "squirrel",
+    "author": "dandelion_tea",
+    "author_url": "https://pixabay.com/users/dandelion_tea/",
+    "page": "https://pixabay.com/vectors/squirrel-rodent-tree-maple-autumn-6664212/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 940
+  },
+  "assets/img/stories/52-3.webp": {
+    "title": "squirrel",
+    "author": "Prawny",
+    "author_url": "https://pixabay.com/users/Prawny/",
+    "page": "https://pixabay.com/illustrations/fairytale-fairy-tale-enchanted-1735352/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1226
+  },
+  "assets/img/stories/52-4.webp": {
+    "title": "squirrel",
+    "author": "Terranaut",
+    "author_url": "https://pixabay.com/users/Terranaut/",
+    "page": "https://pixabay.com/illustrations/squirrel-rodent-tail-tree-dweller-7947214/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/53-1.webp": {
+    "title": "lantern",
+    "author": "pastelila_id",
+    "author_url": "https://pixabay.com/users/pastelila_id/",
+    "page": "https://pixabay.com/illustrations/lantern-lamp-crystal-diamond-light-7877889/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/53-2.webp": {
+    "title": "lantern",
+    "author": "clary2014",
+    "author_url": "https://pixabay.com/users/clary2014/",
+    "page": "https://pixabay.com/vectors/pumpkin-halloween-cartoon-1640465/",
+    "license": "Pixabay Content License",
+    "width": 829,
+    "height": 1280
+  },
+  "assets/img/stories/53-3.webp": {
+    "title": "lantern",
+    "author": "Jazella",
+    "author_url": "https://pixabay.com/users/Jazella/",
+    "page": "https://pixabay.com/illustrations/mushroom-home-purple-fantasy-rock-4681349/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/53-4.webp": {
+    "title": "lantern",
+    "author": "Zuckerwattenland",
+    "author_url": "https://pixabay.com/users/Zuckerwattenland/",
+    "page": "https://pixabay.com/illustrations/girl-witch-halloween-kid-child-6710075/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/54-1.webp": {
+    "title": "peacock",
+    "author": "ractapopulous",
+    "author_url": "https://pixabay.com/users/ractapopulous/",
+    "page": "https://pixabay.com/illustrations/bird-peacock-feathers-art-abstract-2424077/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 600
+  },
+  "assets/img/stories/54-2.webp": {
+    "title": "peacock",
+    "author": "tanrıca",
+    "author_url": "https://pixabay.com/users/tanrıca/",
+    "page": "https://pixabay.com/illustrations/bird-peacock-ornithology-cutout-8885292/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1262
+  },
+  "assets/img/stories/54-3.webp": {
+    "title": "peacock",
+    "author": "Prawny",
+    "author_url": "https://pixabay.com/users/Prawny/",
+    "page": "https://pixabay.com/illustrations/vintage-old-antique-charming-1653138/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 630
+  },
+  "assets/img/stories/54-4.webp": {
+    "title": "peacock",
+    "author": "BarBus",
+    "author_url": "https://pixabay.com/users/BarBus/",
+    "page": "https://pixabay.com/illustrations/peacock-bird-nature-feathers-8693634/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/55-1.webp": {
+    "title": "ant",
+    "author": "jmanuelito1313",
+    "author_url": "https://pixabay.com/users/jmanuelito1313/",
+    "page": "https://pixabay.com/vectors/frame-leaves-watercolor-background-4822807/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/55-2.webp": {
+    "title": "ant",
+    "author": "Clker-Free-Vector-Images",
+    "author_url": "https://pixabay.com/users/Clker-Free-Vector-Images/",
+    "page": "https://pixabay.com/vectors/ant-brown-carrying-egg-white-44588/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 816
+  },
+  "assets/img/stories/55-3.webp": {
+    "title": "ant",
+    "author": "betidraws",
+    "author_url": "https://pixabay.com/users/betidraws/",
+    "page": "https://pixabay.com/illustrations/mouse-stars-fantasy-night-sky-8178945/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1125
+  },
+  "assets/img/stories/55-4.webp": {
+    "title": "ant",
+    "author": "souandresantana",
+    "author_url": "https://pixabay.com/users/souandresantana/",
+    "page": "https://pixabay.com/vectors/elephant-animal-jungle-savannah-1598359/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 690
+  },
+  "assets/img/stories/56-1.webp": {
+    "title": "goat bridge",
+    "author": "Larisa-K",
+    "author_url": "https://pixabay.com/users/Larisa-K/",
+    "page": "https://pixabay.com/illustrations/bridge-forest-fantasy-trees-light-19513/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 600
+  },
+  "assets/img/stories/56-2.webp": {
+    "title": "goat bridge",
+    "author": "GraphicMama-team",
+    "author_url": "https://pixabay.com/users/GraphicMama-team/",
+    "page": "https://pixabay.com/vectors/american-eagle-beaver-bison-eagle-1424717/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 638
+  },
+  "assets/img/stories/56-3.webp": {
+    "title": "goat bridge",
+    "author": "betidraws",
+    "author_url": "https://pixabay.com/users/betidraws/",
+    "page": "https://pixabay.com/illustrations/little-red-riding-hood-forest-nature-9724469/",
+    "license": "Pixabay Content License",
+    "width": 870,
+    "height": 1280
+  },
+  "assets/img/stories/56-4.webp": {
+    "title": "goat bridge",
+    "author": "silviagaudenzi",
+    "author_url": "https://pixabay.com/users/silviagaudenzi/",
+    "page": "https://pixabay.com/illustrations/capra-goat-cartoon-mammal-nature-8535002/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/57-1.webp": {
+    "title": "fish pond",
+    "author": "Prawny",
+    "author_url": "https://pixabay.com/users/Prawny/",
+    "page": "https://pixabay.com/illustrations/watercolour-watercolor-art-painting-1833063/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 687
+  },
+  "assets/img/stories/57-2.webp": {
+    "title": "fish pond",
+    "author": "Painter06",
+    "author_url": "https://pixabay.com/users/Painter06/",
+    "page": "https://pixabay.com/illustrations/fishing-to-fish-fisherman-boat-3403833/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 733
+  },
+  "assets/img/stories/57-3.webp": {
+    "title": "fish pond",
+    "author": "Prawny",
+    "author_url": "https://pixabay.com/users/Prawny/",
+    "page": "https://pixabay.com/illustrations/vintage-literature-book-illustration-1723791/",
+    "license": "Pixabay Content License",
+    "width": 898,
+    "height": 1280
+  },
+  "assets/img/stories/57-4.webp": {
+    "title": "fish pond",
+    "author": "flutie8211",
+    "author_url": "https://pixabay.com/users/flutie8211/",
+    "page": "https://pixabay.com/illustrations/goldfish-fish-nature-aquarium-8748367/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 761
+  },
+  "assets/img/stories/58-1.webp": {
+    "title": "flute",
+    "author": "13342248",
+    "author_url": "https://pixabay.com/users/13342248/",
+    "page": "https://pixabay.com/illustrations/ai-generated-blackbird-bird-8844287/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1157
+  },
+  "assets/img/stories/58-2.webp": {
+    "title": "flute",
+    "author": "CreativeCanvasDesign",
+    "author_url": "https://pixabay.com/users/CreativeCanvasDesign/",
+    "page": "https://pixabay.com/vectors/monkey-flute-cartoon-funny-cute-10292011/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/58-3.webp": {
+    "title": "flute",
+    "author": "u_qwk6183yz9",
+    "author_url": "https://pixabay.com/users/u_qwk6183yz9/",
+    "page": "https://pixabay.com/illustrations/fantasy-character-dragon-illustration-10051927/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/58-4.webp": {
+    "title": "flute",
+    "author": "GDJ",
+    "author_url": "https://pixabay.com/users/GDJ/",
+    "page": "https://pixabay.com/vectors/girl-forest-flute-birds-music-8086098/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1134
+  },
+  "assets/img/stories/59-1.webp": {
+    "title": "grandmother",
+    "author": "ninikvaratskhelia_",
+    "author_url": "https://pixabay.com/users/ninikvaratskhelia_/",
+    "page": "https://pixabay.com/illustrations/grandmother-love-girl-happy-7427525/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1273
+  },
+  "assets/img/stories/59-2.webp": {
+    "title": "grandmother",
+    "author": "manoeldarochadeoliveir",
+    "author_url": "https://pixabay.com/users/manoeldarochadeoliveir/",
+    "page": "https://pixabay.com/vectors/elderly-couple-grandparents-senior-5518002/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 871
+  },
+  "assets/img/stories/59-3.webp": {
+    "title": "grandmother",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/woman-serious-elderly-aged-old-156097/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1189
+  },
+  "assets/img/stories/59-4.webp": {
+    "title": "grandmother",
+    "author": "eommina",
+    "author_url": "https://pixabay.com/users/eommina/",
+    "page": "https://pixabay.com/vectors/man-grandmother-1989145/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 958
+  },
+  "assets/img/stories/60-1.webp": {
+    "title": "shepherd sheep",
+    "author": "geralt",
+    "author_url": "https://pixabay.com/users/geralt/",
+    "page": "https://pixabay.com/illustrations/ai-generated-religion-faith-8587014/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 509
+  },
+  "assets/img/stories/60-2.webp": {
+    "title": "shepherd sheep",
+    "author": "AstralEmber",
+    "author_url": "https://pixabay.com/users/AstralEmber/",
+    "page": "https://pixabay.com/illustrations/ai-generated-jesus-sheep-shepherd-8918776/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1170
+  },
+  "assets/img/stories/60-3.webp": {
+    "title": "shepherd sheep",
+    "author": "SashaSan",
+    "author_url": "https://pixabay.com/users/SashaSan/",
+    "page": "https://pixabay.com/illustrations/sheep-sleeping-fantasy-animal-7178748/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/60-4.webp": {
+    "title": "shepherd sheep",
+    "author": "jeffjacobs1990",
+    "author_url": "https://pixabay.com/users/jeffjacobs1990/",
+    "page": "https://pixabay.com/illustrations/god-jesus-christ-holy-spiritual-7558802/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 508
+  },
+  "assets/img/stories/61-1.webp": {
+    "title": "beaver dam",
+    "author": "Clker-Free-Vector-Images",
+    "author_url": "https://pixabay.com/users/Clker-Free-Vector-Images/",
+    "page": "https://pixabay.com/vectors/beaver-animal-rodent-mammal-48437/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 968
+  },
+  "assets/img/stories/61-2.webp": {
+    "title": "beaver dam",
+    "author": "GraphicMama-team",
+    "author_url": "https://pixabay.com/users/GraphicMama-team/",
+    "page": "https://pixabay.com/vectors/american-eagle-beaver-bison-eagle-1424717/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 638
+  },
+  "assets/img/stories/61-3.webp": {
+    "title": "beaver dam",
+    "author": "CreativeCanvasDesign",
+    "author_url": "https://pixabay.com/users/CreativeCanvasDesign/",
+    "page": "https://pixabay.com/vectors/beaver-royal-beaver-fantasy-beaver-9625009/",
+    "license": "Pixabay Content License",
+    "width": 853,
+    "height": 1280
+  },
+  "assets/img/stories/61-4.webp": {
+    "title": "beaver dam",
+    "author": "Ray_Shrewsberry",
+    "author_url": "https://pixabay.com/users/Ray_Shrewsberry/",
+    "page": "https://pixabay.com/illustrations/beaver-nature-animal-rodent-8967397/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 600
+  },
+  "assets/img/stories/62-1.webp": {
+    "title": "seed sapling",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/sapling-plant-growing-seedling-154734/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 543
+  },
+  "assets/img/stories/62-2.webp": {
+    "title": "seed sapling",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/seedling-potted-plant-sapling-plant-154735/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1189
+  },
+  "assets/img/stories/62-3.webp": {
+    "title": "seed sapling",
+    "author": "REDQUASAR",
+    "author_url": "https://pixabay.com/users/REDQUASAR/",
+    "page": "https://pixabay.com/vectors/seedling-seed-growth-plant-green-2163773/",
+    "license": "Pixabay Content License",
+    "width": 804,
+    "height": 1280
+  },
+  "assets/img/stories/62-4.webp": {
+    "title": "seed sapling",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/development-germinating-germination-1300176/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/63-1.webp": {
+    "title": "peas",
+    "author": "Yol-MansDart",
+    "author_url": "https://pixabay.com/users/Yol-MansDart/",
+    "page": "https://pixabay.com/illustrations/fruits-food-healthy-vegetables-7434339/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/63-2.webp": {
+    "title": "peas",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/eat-eating-essen-nahrung-food-peas-1294946/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 742
+  },
+  "assets/img/stories/63-3.webp": {
+    "title": "peas",
+    "author": "betidraws",
+    "author_url": "https://pixabay.com/users/betidraws/",
+    "page": "https://pixabay.com/illustrations/little-red-riding-hood-forest-nature-9724469/",
+    "license": "Pixabay Content License",
+    "width": 870,
+    "height": 1280
+  },
+  "assets/img/stories/63-4.webp": {
+    "title": "peas",
+    "author": "kparsson",
+    "author_url": "https://pixabay.com/users/kparsson/",
+    "page": "https://pixabay.com/illustrations/twins-two-peas-in-a-pod-pea-pod-1147613/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 899
+  },
+  "assets/img/stories/64-1.webp": {
+    "title": "sun cloud",
+    "author": "geralt",
+    "author_url": "https://pixabay.com/users/geralt/",
+    "page": "https://pixabay.com/illustrations/sunset-sea-horizon-ocean-seascape-473604/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 675
+  },
+  "assets/img/stories/64-2.webp": {
+    "title": "sun cloud",
+    "author": "MiM326",
+    "author_url": "https://pixabay.com/users/MiM326/",
+    "page": "https://pixabay.com/illustrations/screen-a-fairy-tale-sun-sweetheart-1903947/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 594
+  },
+  "assets/img/stories/64-3.webp": {
+    "title": "sun cloud",
+    "author": "Syaibatulhamdi",
+    "author_url": "https://pixabay.com/users/Syaibatulhamdi/",
+    "page": "https://pixabay.com/illustrations/sunrise-ocean-ship-sun-sunset-5863751/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 600
+  },
+  "assets/img/stories/64-4.webp": {
+    "title": "sun cloud",
+    "author": "BiancaVanDijk",
+    "author_url": "https://pixabay.com/users/BiancaVanDijk/",
+    "page": "https://pixabay.com/illustrations/sea-sun-clouds-landscape-painting-7456253/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/65-1.webp": {
+    "title": "window house",
+    "author": "FreeFunArt",
+    "author_url": "https://pixabay.com/users/FreeFunArt/",
+    "page": "https://pixabay.com/illustrations/ai-generated-castle-stationary-8315847/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1200
+  },
+  "assets/img/stories/65-2.webp": {
+    "title": "window house",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/home-house-building-architecture-158089/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 872
+  },
+  "assets/img/stories/65-3.webp": {
+    "title": "window house",
+    "author": "Jazella",
+    "author_url": "https://pixabay.com/users/Jazella/",
+    "page": "https://pixabay.com/illustrations/mushroom-house-fantasy-cottage-4000133/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/65-4.webp": {
+    "title": "window house",
+    "author": "janjf93",
+    "author_url": "https://pixabay.com/users/janjf93/",
+    "page": "https://pixabay.com/vectors/house-icon-symbol-architecture-2492054/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/66-1.webp": {
+    "title": "harvest wheat",
+    "author": "rosaelemil",
+    "author_url": "https://pixabay.com/users/rosaelemil/",
+    "page": "https://pixabay.com/illustrations/spike-spikes-wheat-barley-sheets-2121775/",
+    "license": "Pixabay Content License",
+    "width": 768,
+    "height": 1280
+  },
+  "assets/img/stories/66-2.webp": {
+    "title": "harvest wheat",
+    "author": "dandelion_tea",
+    "author_url": "https://pixabay.com/users/dandelion_tea/",
+    "page": "https://pixabay.com/vectors/wheat-grain-crops-field-7053755/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 510
+  },
+  "assets/img/stories/66-3.webp": {
+    "title": "harvest wheat",
+    "author": "dandelion_tea",
+    "author_url": "https://pixabay.com/users/dandelion_tea/",
+    "page": "https://pixabay.com/vectors/wheat-grain-crops-field-7076817/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 636
+  },
+  "assets/img/stories/66-4.webp": {
+    "title": "harvest wheat",
+    "author": "26145567",
+    "author_url": "https://pixabay.com/users/26145567/",
+    "page": "https://pixabay.com/vectors/wheat-barley-agriculture-nature-7485864/",
+    "license": "Pixabay Content License",
+    "width": 827,
+    "height": 1280
+  },
+  "assets/img/stories/67-1.webp": {
+    "title": "green parrot",
+    "author": "jmanuelito1313",
+    "author_url": "https://pixabay.com/users/jmanuelito1313/",
+    "page": "https://pixabay.com/vectors/frame-leaves-watercolor-background-4822807/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/67-2.webp": {
+    "title": "green parrot",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/bird-cartoon-drawing-flying-green-1297147/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 854
+  },
+  "assets/img/stories/67-3.webp": {
+    "title": "green parrot",
+    "author": "ZAIDoopro",
+    "author_url": "https://pixabay.com/users/ZAIDoopro/",
+    "page": "https://pixabay.com/illustrations/bird-parrot-ornithology-painting-4449891/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/67-4.webp": {
+    "title": "green parrot",
+    "author": "ManvendraPSingh",
+    "author_url": "https://pixabay.com/users/ManvendraPSingh/",
+    "page": "https://pixabay.com/illustrations/bird-parrots-wildlife-animal-3987385/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 597
+  },
+  "assets/img/stories/68-1.webp": {
+    "title": "camel desert",
+    "author": "Hardae",
+    "author_url": "https://pixabay.com/users/Hardae/",
+    "page": "https://pixabay.com/illustrations/camel-desert-cactus-beautiful-8620974/",
+    "license": "Pixabay Content License",
+    "width": 853,
+    "height": 1280
+  },
+  "assets/img/stories/68-2.webp": {
+    "title": "camel desert",
+    "author": "GraphicMama-team",
+    "author_url": "https://pixabay.com/users/GraphicMama-team/",
+    "page": "https://pixabay.com/vectors/camel-animal-egypt-desert-nature-1455972/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 827
+  },
+  "assets/img/stories/68-3.webp": {
+    "title": "camel desert",
+    "author": "BiancaVanDijk",
+    "author_url": "https://pixabay.com/users/BiancaVanDijk/",
+    "page": "https://pixabay.com/illustrations/arabiccontest-man-arabia-arabic-8551910/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/68-4.webp": {
+    "title": "camel desert",
+    "author": "2567670",
+    "author_url": "https://pixabay.com/users/2567670/",
+    "page": "https://pixabay.com/illustrations/camel-cartoony-the-mehari-nar-2565030/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/69-1.webp": {
+    "title": "wheat field",
+    "author": "dandelion_tea",
+    "author_url": "https://pixabay.com/users/dandelion_tea/",
+    "page": "https://pixabay.com/vectors/wheat-grain-crops-field-7076817/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 636
+  },
+  "assets/img/stories/69-2.webp": {
+    "title": "wheat field",
+    "author": "CDD20",
+    "author_url": "https://pixabay.com/users/CDD20/",
+    "page": "https://pixabay.com/illustrations/creativity-imagination-fantasy-4913133/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1273
+  },
+  "assets/img/stories/69-3.webp": {
+    "title": "wheat field",
+    "author": "Mysticsartdesign",
+    "author_url": "https://pixabay.com/users/Mysticsartdesign/",
+    "page": "https://pixabay.com/illustrations/book-old-surreal-fantasy-pages-863418/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 562
+  },
+  "assets/img/stories/69-4.webp": {
+    "title": "wheat field",
+    "author": "dandelion_tea",
+    "author_url": "https://pixabay.com/users/dandelion_tea/",
+    "page": "https://pixabay.com/vectors/wheat-grain-crops-field-7053755/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 510
+  },
+  "assets/img/stories/70-1.webp": {
+    "title": "clay pot water",
+    "author": "ZAIDoopro",
+    "author_url": "https://pixabay.com/users/ZAIDoopro/",
+    "page": "https://pixabay.com/illustrations/cactus-plant-flower-pot-pot-plant-8065902/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/70-2.webp": {
+    "title": "clay pot water",
+    "author": "Mohamed_hassan",
+    "author_url": "https://pixabay.com/users/Mohamed_hassan/",
+    "page": "https://pixabay.com/vectors/gardening-watering-plant-growth-10219997/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 671
+  },
+  "assets/img/stories/70-3.webp": {
+    "title": "clay pot water",
+    "author": "wiliantosta",
+    "author_url": "https://pixabay.com/users/wiliantosta/",
+    "page": "https://pixabay.com/illustrations/cactus-plants-pots-flowers-pattern-2191647/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1011
+  },
+  "assets/img/stories/70-4.webp": {
+    "title": "clay pot water",
+    "author": "CreativeCanvasDesign",
+    "author_url": "https://pixabay.com/users/CreativeCanvasDesign/",
+    "page": "https://pixabay.com/vectors/adobo-cooking-mascot-clay-pot-10322103/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/71-1.webp": {
+    "title": "fairy",
+    "author": "geralt",
+    "author_url": "https://pixabay.com/users/geralt/",
+    "page": "https://pixabay.com/illustrations/ai-generated-castle-flowers-garden-8354658/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 616
+  },
+  "assets/img/stories/71-2.webp": {
+    "title": "fairy",
+    "author": "RosZie",
+    "author_url": "https://pixabay.com/users/RosZie/",
+    "page": "https://pixabay.com/illustrations/little-boy-fishing-moon-child-sea-7746934/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 600
+  },
+  "assets/img/stories/71-3.webp": {
+    "title": "fairy",
+    "author": "Prawny",
+    "author_url": "https://pixabay.com/users/Prawny/",
+    "page": "https://pixabay.com/illustrations/fairy-tale-vintage-old-antique-1653150/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 629
+  },
+  "assets/img/stories/71-4.webp": {
+    "title": "fairy",
+    "author": "CDD20",
+    "author_url": "https://pixabay.com/users/CDD20/",
+    "page": "https://pixabay.com/illustrations/girl-cat-flower-fairy-tale-1118396/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 506
+  },
+  "assets/img/stories/72-1.webp": {
+    "title": "rainbow cloud",
+    "author": "RosZie",
+    "author_url": "https://pixabay.com/users/RosZie/",
+    "page": "https://pixabay.com/illustrations/clouds-rainbow-eyes-eyelashes-7728399/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/72-2.webp": {
+    "title": "rainbow cloud",
+    "author": "einsichtsweise",
+    "author_url": "https://pixabay.com/users/einsichtsweise/",
+    "page": "https://pixabay.com/vectors/rainbow-clouds-drawing-design-2278774/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 665
+  },
+  "assets/img/stories/72-3.webp": {
+    "title": "rainbow cloud",
+    "author": "Saydung",
+    "author_url": "https://pixabay.com/users/Saydung/",
+    "page": "https://pixabay.com/illustrations/luggage-clouds-rainbow-sun-moon-6255515/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/72-4.webp": {
+    "title": "rainbow cloud",
+    "author": "eommina",
+    "author_url": "https://pixabay.com/users/eommina/",
+    "page": "https://pixabay.com/vectors/hand-drawing-umbrella-non-cloud-1957042/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 766
+  },
+  "assets/img/stories/73-1.webp": {
+    "title": "golden deer",
+    "author": "jcoope12",
+    "author_url": "https://pixabay.com/users/jcoope12/",
+    "page": "https://pixabay.com/illustrations/ai-generated-deer-fantasy-beautiful-8946371/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 741
+  },
+  "assets/img/stories/73-2.webp": {
+    "title": "golden deer",
+    "author": "monstreh",
+    "author_url": "https://pixabay.com/users/monstreh/",
+    "page": "https://pixabay.com/vectors/deer-pattern-design-animal-3894103/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/73-3.webp": {
+    "title": "golden deer",
+    "author": "chumel_nz",
+    "author_url": "https://pixabay.com/users/chumel_nz/",
+    "page": "https://pixabay.com/illustrations/stag-wildflowers-boho-flowers-deer-1998855/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1159
+  },
+  "assets/img/stories/73-4.webp": {
+    "title": "golden deer",
+    "author": "Manuchi",
+    "author_url": "https://pixabay.com/users/Manuchi/",
+    "page": "https://pixabay.com/illustrations/deer-polygons-art-design-graphic-3275594/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 600
+  },
+  "assets/img/stories/74-1.webp": {
+    "title": "castle",
+    "author": "geralt",
+    "author_url": "https://pixabay.com/users/geralt/",
+    "page": "https://pixabay.com/illustrations/ai-generated-castle-flowers-garden-8354658/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 616
+  },
+  "assets/img/stories/74-2.webp": {
+    "title": "castle",
+    "author": "LisaChe",
+    "author_url": "https://pixabay.com/users/LisaChe/",
+    "page": "https://pixabay.com/illustrations/castle-mountains-towers-sky-4690710/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/74-3.webp": {
+    "title": "castle",
+    "author": "Darkmoon_Art",
+    "author_url": "https://pixabay.com/users/Darkmoon_Art/",
+    "page": "https://pixabay.com/illustrations/fantasy-a-book-path-fairy-tale-book-4378018/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 629
+  },
+  "assets/img/stories/74-4.webp": {
+    "title": "castle",
+    "author": "RichardsDrawings",
+    "author_url": "https://pixabay.com/users/RichardsDrawings/",
+    "page": "https://pixabay.com/illustrations/unicorns-castle-heart-love-sun-2928822/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/75-1.webp": {
+    "title": "moon stars",
+    "author": "Ridderhof",
+    "author_url": "https://pixabay.com/users/Ridderhof/",
+    "page": "https://pixabay.com/illustrations/moon-stars-universe-starry-sky-7724815/",
+    "license": "Pixabay Content License",
+    "width": 853,
+    "height": 1280
+  },
+  "assets/img/stories/75-2.webp": {
+    "title": "moon stars",
+    "author": "Cheerfully_lost",
+    "author_url": "https://pixabay.com/users/Cheerfully_lost/",
+    "page": "https://pixabay.com/vectors/night-day-dusk-moon-midnight-blue-1851685/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 695
+  },
+  "assets/img/stories/75-3.webp": {
+    "title": "moon stars",
+    "author": "JOhaza",
+    "author_url": "https://pixabay.com/users/JOhaza/",
+    "page": "https://pixabay.com/vectors/wolf-moon-nighttime-stars-sky-4561204/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 610
+  },
+  "assets/img/stories/75-4.webp": {
+    "title": "moon stars",
+    "author": "flutie8211",
+    "author_url": "https://pixabay.com/users/flutie8211/",
+    "page": "https://pixabay.com/illustrations/moon-night-nature-sky-fantasy-8745706/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 600
+  },
+  "assets/img/stories/76-1.webp": {
+    "title": "mermaid",
+    "author": "RobertoLazary",
+    "author_url": "https://pixabay.com/users/RobertoLazary/",
+    "page": "https://pixabay.com/illustrations/mermaid-fantasy-fairy-7372933/",
+    "license": "Pixabay Content License",
+    "width": 720,
+    "height": 1280
+  },
+  "assets/img/stories/76-2.webp": {
+    "title": "mermaid",
+    "author": "Clker-Free-Vector-Images",
+    "author_url": "https://pixabay.com/users/Clker-Free-Vector-Images/",
+    "page": "https://pixabay.com/vectors/mermaid-bubbles-cartoon-sea-water-28783/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 949
+  },
+  "assets/img/stories/76-3.webp": {
+    "title": "mermaid",
+    "author": "Prawny",
+    "author_url": "https://pixabay.com/users/Prawny/",
+    "page": "https://pixabay.com/illustrations/vintage-book-illustration-literature-1721918/",
+    "license": "Pixabay Content License",
+    "width": 811,
+    "height": 1280
+  },
+  "assets/img/stories/76-4.webp": {
+    "title": "mermaid",
+    "author": "Mysticsartdesign",
+    "author_url": "https://pixabay.com/users/Mysticsartdesign/",
+    "page": "https://pixabay.com/illustrations/mermaid-sea-man-sea-creatures-2833218/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 600
+  },
+  "assets/img/stories/77-1.webp": {
+    "title": "dragon",
+    "author": "ArtsyBee",
+    "author_url": "https://pixabay.com/users/ArtsyBee/",
+    "page": "https://pixabay.com/illustrations/fantasy-scene-dragon-dark-evening-2635797/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1273
+  },
+  "assets/img/stories/77-2.webp": {
+    "title": "dragon",
+    "author": "GraphicMama-team",
+    "author_url": "https://pixabay.com/users/GraphicMama-team/",
+    "page": "https://pixabay.com/vectors/dragon-chinese-mustache-cute-1597568/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1121
+  },
+  "assets/img/stories/77-3.webp": {
+    "title": "dragon",
+    "author": "Prawny",
+    "author_url": "https://pixabay.com/users/Prawny/",
+    "page": "https://pixabay.com/illustrations/fairy-tale-vintage-old-antique-1653150/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 629
+  },
+  "assets/img/stories/77-4.webp": {
+    "title": "dragon",
+    "author": "alanajordan",
+    "author_url": "https://pixabay.com/users/alanajordan/",
+    "page": "https://pixabay.com/illustrations/ai-generated-baby-dragon-fantasy-7702855/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/78-1.webp": {
+    "title": "wizard",
+    "author": "betidraws",
+    "author_url": "https://pixabay.com/users/betidraws/",
+    "page": "https://pixabay.com/illustrations/magic-wizard-witch-forest-trees-9635417/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1200
+  },
+  "assets/img/stories/78-2.webp": {
+    "title": "wizard",
+    "author": "GraphicMama-team",
+    "author_url": "https://pixabay.com/users/GraphicMama-team/",
+    "page": "https://pixabay.com/vectors/wizard-magic-magician-mystery-1454385/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 938
+  },
+  "assets/img/stories/78-3.webp": {
+    "title": "wizard",
+    "author": "betidraws",
+    "author_url": "https://pixabay.com/users/betidraws/",
+    "page": "https://pixabay.com/illustrations/fairy-tale-fairy-forest-forest-9619388/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 675
+  },
+  "assets/img/stories/78-4.webp": {
+    "title": "wizard",
+    "author": "missartem",
+    "author_url": "https://pixabay.com/users/missartem/",
+    "page": "https://pixabay.com/illustrations/cat-witch-autumn-cauldron-pot-9110930/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/79-1.webp": {
+    "title": "crystal cave",
+    "author": "Juliez4",
+    "author_url": "https://pixabay.com/users/Juliez4/",
+    "page": "https://pixabay.com/illustrations/ai-generated-crystal-cave-minerals-8695271/",
+    "license": "Pixabay Content License",
+    "width": 731,
+    "height": 1280
+  },
+  "assets/img/stories/79-2.webp": {
+    "title": "crystal cave",
+    "author": "moonflower5",
+    "author_url": "https://pixabay.com/users/moonflower5/",
+    "page": "https://pixabay.com/illustrations/gnome-crystal-gemstone-cute-hug-9255022/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1200
+  },
+  "assets/img/stories/79-3.webp": {
+    "title": "crystal cave",
+    "author": "betidraws",
+    "author_url": "https://pixabay.com/users/betidraws/",
+    "page": "https://pixabay.com/illustrations/toddler-baby-teddy-bear-cute-stars-8297939/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1200
+  },
+  "assets/img/stories/79-4.webp": {
+    "title": "crystal cave",
+    "author": "EvaMichalkova",
+    "author_url": "https://pixabay.com/users/EvaMichalkova/",
+    "page": "https://pixabay.com/illustrations/amethyst-cave-underground-beams-8731630/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 600
+  },
+  "assets/img/stories/80-1.webp": {
+    "title": "princess",
+    "author": "Prettysleepy",
+    "author_url": "https://pixabay.com/users/Prettysleepy/",
+    "page": "https://pixabay.com/illustrations/lady-tiger-painting-artwork-feline-5334288/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1058
+  },
+  "assets/img/stories/80-2.webp": {
+    "title": "princess",
+    "author": "InspireCreateCelebrate",
+    "author_url": "https://pixabay.com/users/InspireCreateCelebrate/",
+    "page": "https://pixabay.com/vectors/unicorn-unicorn-crown-flower-crown-3392554/",
+    "license": "Pixabay Content License",
+    "width": 878,
+    "height": 1280
+  },
+  "assets/img/stories/80-3.webp": {
+    "title": "princess",
+    "author": "Jossy_Justino",
+    "author_url": "https://pixabay.com/users/Jossy_Justino/",
+    "page": "https://pixabay.com/illustrations/prince-princess-fairy-castle-1503345/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1092
+  },
+  "assets/img/stories/80-4.webp": {
+    "title": "princess",
+    "author": "CreativeCanvasDesign",
+    "author_url": "https://pixabay.com/users/CreativeCanvasDesign/",
+    "page": "https://pixabay.com/vectors/diwata-filipino-guardian-mascot-10322012/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/81-1.webp": {
+    "title": "white stallion",
+    "author": "13342248",
+    "author_url": "https://pixabay.com/users/13342248/",
+    "page": "https://pixabay.com/illustrations/animal-horse-mammal-art-stallion-8472751/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 700
+  },
+  "assets/img/stories/81-2.webp": {
+    "title": "white stallion",
+    "author": "alexsozzo",
+    "author_url": "https://pixabay.com/users/alexsozzo/",
+    "page": "https://pixabay.com/illustrations/ai-generated-horse-equine-8084090/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 536
+  },
+  "assets/img/stories/81-3.webp": {
+    "title": "white stallion",
+    "author": "KolonjaArt",
+    "author_url": "https://pixabay.com/users/KolonjaArt/",
+    "page": "https://pixabay.com/illustrations/horse-wall-decor-custom-portrait-4006848/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 963
+  },
+  "assets/img/stories/81-4.webp": {
+    "title": "white stallion",
+    "author": "Clker-Free-Vector-Images",
+    "author_url": "https://pixabay.com/users/Clker-Free-Vector-Images/",
+    "page": "https://pixabay.com/vectors/horse-head-portrait-animal-312688/",
+    "license": "Pixabay Content License",
+    "width": 806,
+    "height": 1280
+  },
+  "assets/img/stories/82-1.webp": {
+    "title": "magic wand",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/magic-wand-hat-sorcerer-magician-154526/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 804
+  },
+  "assets/img/stories/82-2.webp": {
+    "title": "magic wand",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/tux-animal-bird-cute-crown-elf-161475/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 596
+  },
+  "assets/img/stories/82-3.webp": {
+    "title": "magic wand",
+    "author": "Clker-Free-Vector-Images",
+    "author_url": "https://pixabay.com/users/Clker-Free-Vector-Images/",
+    "page": "https://pixabay.com/vectors/magic-wand-female-flying-fantasy-33848/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 650
+  },
+  "assets/img/stories/82-4.webp": {
+    "title": "magic wand",
+    "author": "Angeleses",
+    "author_url": "https://pixabay.com/users/Angeleses/",
+    "page": "https://pixabay.com/illustrations/png-magic-wand-wand-gold-magic-2663876/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 598
+  },
+  "assets/img/stories/83-1.webp": {
+    "title": "slipper",
+    "author": "La_Petite_Femme",
+    "author_url": "https://pixabay.com/users/La_Petite_Femme/",
+    "page": "https://pixabay.com/illustrations/cat-window-vase-flower-pot-curtain-1266193/",
+    "license": "Pixabay Content License",
+    "width": 720,
+    "height": 1280
+  },
+  "assets/img/stories/83-2.webp": {
+    "title": "slipper",
+    "author": "Cindynhiart",
+    "author_url": "https://pixabay.com/users/Cindynhiart/",
+    "page": "https://pixabay.com/illustrations/doodle-fun-food-drawing-cute-5548474/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/83-3.webp": {
+    "title": "slipper",
+    "author": "Prawny",
+    "author_url": "https://pixabay.com/users/Prawny/",
+    "page": "https://pixabay.com/illustrations/vintage-old-antique-retro-1652568/",
+    "license": "Pixabay Content License",
+    "width": 890,
+    "height": 1280
+  },
+  "assets/img/stories/83-4.webp": {
+    "title": "slipper",
+    "author": "JJuni",
+    "author_url": "https://pixabay.com/users/JJuni/",
+    "page": "https://pixabay.com/vectors/slipper-shoes-rubber-slippers-1129883/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 958
+  },
+  "assets/img/stories/84-1.webp": {
+    "title": "gingerbread house",
+    "author": "Anerma",
+    "author_url": "https://pixabay.com/users/Anerma/",
+    "page": "https://pixabay.com/vectors/gingerbread-house-christmas-1819596/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1015
+  },
+  "assets/img/stories/84-2.webp": {
+    "title": "gingerbread house",
+    "author": "Anna_Elise_Altenrath",
+    "author_url": "https://pixabay.com/users/Anna_Elise_Altenrath/",
+    "page": "https://pixabay.com/vectors/gingerbread-house-gingerbread-house-7456090/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 934
+  },
+  "assets/img/stories/84-3.webp": {
+    "title": "gingerbread house",
+    "author": "wonderwoman627",
+    "author_url": "https://pixabay.com/users/wonderwoman627/",
+    "page": "https://pixabay.com/illustrations/ai-generated-gingerbread-8343755/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/84-4.webp": {
+    "title": "gingerbread house",
+    "author": "Darkmoon_Art",
+    "author_url": "https://pixabay.com/users/Darkmoon_Art/",
+    "page": "https://pixabay.com/illustrations/ai-generated-gingerbread-house-8407097/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/85-1.webp": {
+    "title": "goose",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/animals-birds-flying-geese-goose-2030018/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 624
+  },
+  "assets/img/stories/85-2.webp": {
+    "title": "goose",
+    "author": "Clker-Free-Vector-Images",
+    "author_url": "https://pixabay.com/users/Clker-Free-Vector-Images/",
+    "page": "https://pixabay.com/vectors/goose-gander-bird-animal-farm-311362/",
+    "license": "Pixabay Content License",
+    "width": 749,
+    "height": 1280
+  },
+  "assets/img/stories/85-3.webp": {
+    "title": "goose",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/witch-fairytale-fantasy-flying-158095/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 625
+  },
+  "assets/img/stories/85-4.webp": {
+    "title": "goose",
+    "author": "Ray_Shrewsberry",
+    "author_url": "https://pixabay.com/users/Ray_Shrewsberry/",
+    "page": "https://pixabay.com/illustrations/goose-bird-baby-chick-young-8728940/",
+    "license": "Pixabay Content License",
+    "width": 853,
+    "height": 1280
+  },
+  "assets/img/stories/86-1.webp": {
+    "title": "mountain river",
+    "author": "Kieselli",
+    "author_url": "https://pixabay.com/users/Kieselli/",
+    "page": "https://pixabay.com/illustrations/mountain-landscape-snow-nature-5431950/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 506
+  },
+  "assets/img/stories/86-2.webp": {
+    "title": "mountain river",
+    "author": "Clker-Free-Vector-Images",
+    "author_url": "https://pixabay.com/users/Clker-Free-Vector-Images/",
+    "page": "https://pixabay.com/vectors/map-scroll-pirate-treasure-29903/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 780
+  },
+  "assets/img/stories/86-3.webp": {
+    "title": "mountain river",
+    "author": "eddydsgn",
+    "author_url": "https://pixabay.com/users/eddydsgn/",
+    "page": "https://pixabay.com/vectors/river-forest-mountain-landscape-8286407/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 892
+  },
+  "assets/img/stories/86-4.webp": {
+    "title": "mountain river",
+    "author": "Artworkids",
+    "author_url": "https://pixabay.com/users/Artworkids/",
+    "page": "https://pixabay.com/vectors/traveling-travel-tourism-vacation-4323759/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1125
+  },
+  "assets/img/stories/87-1.webp": {
+    "title": "rain",
+    "author": "JenDigitalArt",
+    "author_url": "https://pixabay.com/users/JenDigitalArt/",
+    "page": "https://pixabay.com/illustrations/rain-girl-umbrella-weather-female-2859322/",
+    "license": "Pixabay Content License",
+    "width": 896,
+    "height": 1280
+  },
+  "assets/img/stories/87-2.webp": {
+    "title": "rain",
+    "author": "CDD20",
+    "author_url": "https://pixabay.com/users/CDD20/",
+    "page": "https://pixabay.com/illustrations/cartoon-painting-fantasy-creativity-5266407/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/87-3.webp": {
+    "title": "rain",
+    "author": "51581",
+    "author_url": "https://pixabay.com/users/51581/",
+    "page": "https://pixabay.com/illustrations/book-dog-fairy-tales-child-kid-794978/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 506
+  },
+  "assets/img/stories/87-4.webp": {
+    "title": "rain",
+    "author": "eommina",
+    "author_url": "https://pixabay.com/users/eommina/",
+    "page": "https://pixabay.com/vectors/hand-drawing-umbrella-non-cloud-1957042/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 766
+  },
+  "assets/img/stories/88-1.webp": {
+    "title": "sunflower",
+    "author": "Prawny",
+    "author_url": "https://pixabay.com/users/Prawny/",
+    "page": "https://pixabay.com/illustrations/watercolour-watercolor-art-painting-2168729/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1126
+  },
+  "assets/img/stories/88-2.webp": {
+    "title": "sunflower",
+    "author": "GDJ",
+    "author_url": "https://pixabay.com/users/GDJ/",
+    "page": "https://pixabay.com/vectors/sunflower-smiley-face-emoji-1801284/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 899
+  },
+  "assets/img/stories/88-3.webp": {
+    "title": "sunflower",
+    "author": "betidraws",
+    "author_url": "https://pixabay.com/users/betidraws/",
+    "page": "https://pixabay.com/illustrations/little-red-riding-hood-forest-nature-9724469/",
+    "license": "Pixabay Content License",
+    "width": 870,
+    "height": 1280
+  },
+  "assets/img/stories/88-4.webp": {
+    "title": "sunflower",
+    "author": "Ylanite",
+    "author_url": "https://pixabay.com/users/Ylanite/",
+    "page": "https://pixabay.com/illustrations/sunflower-nature-background-drawing-6807491/",
+    "license": "Pixabay Content License",
+    "width": 853,
+    "height": 1280
+  },
+  "assets/img/stories/89-1.webp": {
+    "title": "forest",
+    "author": "t0ngo",
+    "author_url": "https://pixabay.com/users/t0ngo/",
+    "page": "https://pixabay.com/illustrations/forest-autumn-animals-rabbit-bear-7383165/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/89-2.webp": {
+    "title": "forest",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/trees-woods-forest-deciduous-trees-154168/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 773
+  },
+  "assets/img/stories/89-3.webp": {
+    "title": "forest",
+    "author": "Prawny",
+    "author_url": "https://pixabay.com/users/Prawny/",
+    "page": "https://pixabay.com/illustrations/vintage-arthur-rackham-victorian-1722318/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1176
+  },
+  "assets/img/stories/89-4.webp": {
+    "title": "forest",
+    "author": "Sunriseforever",
+    "author_url": "https://pixabay.com/users/Sunriseforever/",
+    "page": "https://pixabay.com/illustrations/winter-hibernation-hedgehogs-forest-7684907/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1269
+  },
+  "assets/img/stories/90-1.webp": {
+    "title": "ocean fish",
+    "author": "Ridderhof",
+    "author_url": "https://pixabay.com/users/Ridderhof/",
+    "page": "https://pixabay.com/illustrations/fish-ocean-design-creatively-7774849/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 883
+  },
+  "assets/img/stories/90-2.webp": {
+    "title": "ocean fish",
+    "author": "kirillsl",
+    "author_url": "https://pixabay.com/users/kirillsl/",
+    "page": "https://pixabay.com/vectors/submarine-fishing-sea-fantasy-6487509/",
+    "license": "Pixabay Content License",
+    "width": 854,
+    "height": 1280
+  },
+  "assets/img/stories/90-3.webp": {
+    "title": "ocean fish",
+    "author": "Artworkids",
+    "author_url": "https://pixabay.com/users/Artworkids/",
+    "page": "https://pixabay.com/vectors/dive-scuba-ocean-sea-water-fish-4219524/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1125
+  },
+  "assets/img/stories/90-4.webp": {
+    "title": "ocean fish",
+    "author": "GDJ",
+    "author_url": "https://pixabay.com/users/GDJ/",
+    "page": "https://pixabay.com/vectors/ai-generated-shark-marine-fish-9069924/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 572
+  },
+  "assets/img/stories/91-1.webp": {
+    "title": "cactus desert",
+    "author": "Ridderhof",
+    "author_url": "https://pixabay.com/users/Ridderhof/",
+    "page": "https://pixabay.com/illustrations/cactus-nature-desert-plants-flower-9524175/",
+    "license": "Pixabay Content License",
+    "width": 853,
+    "height": 1280
+  },
+  "assets/img/stories/91-2.webp": {
+    "title": "cactus desert",
+    "author": "Jozefm84",
+    "author_url": "https://pixabay.com/users/Jozefm84/",
+    "page": "https://pixabay.com/vectors/cactus-summer-nature-garden-green-4373599/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 719
+  },
+  "assets/img/stories/91-3.webp": {
+    "title": "cactus desert",
+    "author": "Królestwo_Nauki",
+    "author_url": "https://pixabay.com/users/Królestwo_Nauki/",
+    "page": "https://pixabay.com/vectors/desert-cactus-nature-drawing-6814275/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 640
+  },
+  "assets/img/stories/91-4.webp": {
+    "title": "cactus desert",
+    "author": "Hardae",
+    "author_url": "https://pixabay.com/users/Hardae/",
+    "page": "https://pixabay.com/illustrations/camel-desert-cactus-beautiful-8620974/",
+    "license": "Pixabay Content License",
+    "width": 853,
+    "height": 1280
+  },
+  "assets/img/stories/92-1.webp": {
+    "title": "snow mountain",
+    "author": "Kieselli",
+    "author_url": "https://pixabay.com/users/Kieselli/",
+    "page": "https://pixabay.com/illustrations/mountain-landscape-snow-nature-5431950/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 506
+  },
+  "assets/img/stories/92-2.webp": {
+    "title": "snow mountain",
+    "author": "Mollyroselee",
+    "author_url": "https://pixabay.com/users/Mollyroselee/",
+    "page": "https://pixabay.com/illustrations/deer-winter-pinetrees-drawing-10023075/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 626
+  },
+  "assets/img/stories/92-3.webp": {
+    "title": "snow mountain",
+    "author": "LUCASGREY",
+    "author_url": "https://pixabay.com/users/LUCASGREY/",
+    "page": "https://pixabay.com/vectors/everest-czomolungma-himalayas-4828404/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 636
+  },
+  "assets/img/stories/92-4.webp": {
+    "title": "snow mountain",
+    "author": "Hansuan_Fabregas",
+    "author_url": "https://pixabay.com/users/Hansuan_Fabregas/",
+    "page": "https://pixabay.com/illustrations/mountain-ai-generated-lake-forest-7686642/",
+    "license": "Pixabay Content License",
+    "width": 853,
+    "height": 1280
+  },
+  "assets/img/stories/93-1.webp": {
+    "title": "waterfall",
+    "author": "NickyPe",
+    "author_url": "https://pixabay.com/users/NickyPe/",
+    "page": "https://pixabay.com/illustrations/ai-generated-woman-waterfall-dreamy-8714756/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 509
+  },
+  "assets/img/stories/93-2.webp": {
+    "title": "waterfall",
+    "author": "flutie8211",
+    "author_url": "https://pixabay.com/users/flutie8211/",
+    "page": "https://pixabay.com/illustrations/waterfall-nature-landscape-river-9466632/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1206
+  },
+  "assets/img/stories/93-3.webp": {
+    "title": "waterfall",
+    "author": "Willgard",
+    "author_url": "https://pixabay.com/users/Willgard/",
+    "page": "https://pixabay.com/illustrations/fantasy-fairy-fairy-world-waterfall-4799349/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 600
+  },
+  "assets/img/stories/93-4.webp": {
+    "title": "waterfall",
+    "author": "susannp4",
+    "author_url": "https://pixabay.com/users/susannp4/",
+    "page": "https://pixabay.com/illustrations/background-composing-water-1524526/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 675
+  },
+  "assets/img/stories/94-1.webp": {
+    "title": "butterfly",
+    "author": "ArtsyBee",
+    "author_url": "https://pixabay.com/users/ArtsyBee/",
+    "page": "https://pixabay.com/illustrations/vintage-scrapbook-watercolor-1283396/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1141
+  },
+  "assets/img/stories/94-2.webp": {
+    "title": "butterfly",
+    "author": "MiguelRCarbajal",
+    "author_url": "https://pixabay.com/users/MiguelRCarbajal/",
+    "page": "https://pixabay.com/illustrations/moth-insect-butterfly-cartoon-8013719/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 675
+  },
+  "assets/img/stories/94-3.webp": {
+    "title": "butterfly",
+    "author": "Prawny",
+    "author_url": "https://pixabay.com/users/Prawny/",
+    "page": "https://pixabay.com/illustrations/vintage-retro-enchanted-charming-1653959/",
+    "license": "Pixabay Content License",
+    "width": 890,
+    "height": 1280
+  },
+  "assets/img/stories/94-4.webp": {
+    "title": "butterfly",
+    "author": "La_Petite_Femme",
+    "author_url": "https://pixabay.com/users/La_Petite_Femme/",
+    "page": "https://pixabay.com/illustrations/flower-pink-flowers-butterfly-1275936/",
+    "license": "Pixabay Content License",
+    "width": 720,
+    "height": 1280
+  },
+  "assets/img/stories/95-1.webp": {
+    "title": "pine tree",
+    "author": "IevaLi",
+    "author_url": "https://pixabay.com/users/IevaLi/",
+    "page": "https://pixabay.com/illustrations/woods-fog-forest-clouds-trees-7857082/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 596
+  },
+  "assets/img/stories/95-2.webp": {
+    "title": "pine tree",
+    "author": "ArtRose",
+    "author_url": "https://pixabay.com/users/ArtRose/",
+    "page": "https://pixabay.com/vectors/trees-tree-conifers-needles-strain-5553642/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 922
+  },
+  "assets/img/stories/95-3.webp": {
+    "title": "pine tree",
+    "author": "alisa_petra",
+    "author_url": "https://pixabay.com/users/alisa_petra/",
+    "page": "https://pixabay.com/illustrations/christmas-trees-pattern-wallpaper-5778006/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1273
+  },
+  "assets/img/stories/95-4.webp": {
+    "title": "pine tree",
+    "author": "Chakkree_Chantakad",
+    "author_url": "https://pixabay.com/users/Chakkree_Chantakad/",
+    "page": "https://pixabay.com/vectors/forest-winter-tree-landscape-4824759/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 595
+  },
+  "assets/img/stories/96-1.webp": {
+    "title": "treasure map",
+    "author": "OpenClipart-Vectors",
+    "author_url": "https://pixabay.com/users/OpenClipart-Vectors/",
+    "page": "https://pixabay.com/vectors/treasure-map-treasure-hunt-153425/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 702
+  },
+  "assets/img/stories/96-2.webp": {
+    "title": "treasure map",
+    "author": "Clker-Free-Vector-Images",
+    "author_url": "https://pixabay.com/users/Clker-Free-Vector-Images/",
+    "page": "https://pixabay.com/vectors/map-scroll-pirate-treasure-29903/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 780
+  },
+  "assets/img/stories/96-3.webp": {
+    "title": "treasure map",
+    "author": "Clker-Free-Vector-Images",
+    "author_url": "https://pixabay.com/users/Clker-Free-Vector-Images/",
+    "page": "https://pixabay.com/vectors/map-treasure-pirate-309928/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 780
+  },
+  "assets/img/stories/96-4.webp": {
+    "title": "treasure map",
+    "author": "Hansuan_Fabregas",
+    "author_url": "https://pixabay.com/users/Hansuan_Fabregas/",
+    "page": "https://pixabay.com/illustrations/adventure-exploration-explorers-map-7695823/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/97-1.webp": {
+    "title": "hot air balloon",
+    "author": "ractapopulous",
+    "author_url": "https://pixabay.com/users/ractapopulous/",
+    "page": "https://pixabay.com/illustrations/hot-air-balloon-sky-art-watercolor-3616100/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 596
+  },
+  "assets/img/stories/97-2.webp": {
+    "title": "hot air balloon",
+    "author": "GDJ",
+    "author_url": "https://pixabay.com/users/GDJ/",
+    "page": "https://pixabay.com/vectors/hot-air-balloon-couple-hearts-6000454/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 810
+  },
+  "assets/img/stories/97-3.webp": {
+    "title": "hot air balloon",
+    "author": "KELLEPICS",
+    "author_url": "https://pixabay.com/users/KELLEPICS/",
+    "page": "https://pixabay.com/illustrations/fantasy-city-architecture-composing-2543658/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 509
+  },
+  "assets/img/stories/97-4.webp": {
+    "title": "hot air balloon",
+    "author": "Syaibatulhamdi",
+    "author_url": "https://pixabay.com/users/Syaibatulhamdi/",
+    "page": "https://pixabay.com/illustrations/hot-air-balloons-clouds-sky-heart-5880859/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 643
+  },
+  "assets/img/stories/98-1.webp": {
+    "title": "cave",
+    "author": "Vilkasss",
+    "author_url": "https://pixabay.com/users/Vilkasss/",
+    "page": "https://pixabay.com/illustrations/ai-generated-caving-explorer-8673761/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/98-2.webp": {
+    "title": "cave",
+    "author": "GraphicMama-team",
+    "author_url": "https://pixabay.com/users/GraphicMama-team/",
+    "page": "https://pixabay.com/vectors/caveman-cave-man-primitive-bone-1460898/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 1026
+  },
+  "assets/img/stories/98-3.webp": {
+    "title": "cave",
+    "author": "Prawny",
+    "author_url": "https://pixabay.com/users/Prawny/",
+    "page": "https://pixabay.com/illustrations/vintage-old-antique-charming-1653166/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 634
+  },
+  "assets/img/stories/98-4.webp": {
+    "title": "cave",
+    "author": "geralt",
+    "author_url": "https://pixabay.com/users/geralt/",
+    "page": "https://pixabay.com/illustrations/ai-generated-cave-lake-water-8230178/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 616
+  },
+  "assets/img/stories/99-1.webp": {
+    "title": "island boat",
+    "author": "geralt",
+    "author_url": "https://pixabay.com/users/geralt/",
+    "page": "https://pixabay.com/illustrations/village-city-coast-colorful-houses-8396532/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 509
+  },
+  "assets/img/stories/99-2.webp": {
+    "title": "island boat",
+    "author": "cromaconceptovisual",
+    "author_url": "https://pixabay.com/users/cromaconceptovisual/",
+    "page": "https://pixabay.com/illustrations/lighthouse-boat-sea-dock-ocean-6077718/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 675
+  },
+  "assets/img/stories/99-3.webp": {
+    "title": "island boat",
+    "author": "davidcmiller",
+    "author_url": "https://pixabay.com/users/davidcmiller/",
+    "page": "https://pixabay.com/illustrations/beach-boat-painting-paradise-palm-1110498/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 632
+  },
+  "assets/img/stories/99-4.webp": {
+    "title": "island boat",
+    "author": "ArtTower",
+    "author_url": "https://pixabay.com/users/ArtTower/",
+    "page": "https://pixabay.com/illustrations/boat-travel-painting-art-drawing-6686809/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 594
+  },
+  "assets/img/stories/100-1.webp": {
+    "title": "kite",
+    "author": "Clker-Free-Vector-Images",
+    "author_url": "https://pixabay.com/users/Clker-Free-Vector-Images/",
+    "page": "https://pixabay.com/vectors/green-blue-orange-kite-flying-air-48752/",
+    "license": "Pixabay Content License",
+    "width": 883,
+    "height": 1280
+  },
+  "assets/img/stories/100-2.webp": {
+    "title": "kite",
+    "author": "jambulboy",
+    "author_url": "https://pixabay.com/users/jambulboy/",
+    "page": "https://pixabay.com/vectors/kite-boy-kid-children-play-flying-2521627/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 900
+  },
+  "assets/img/stories/100-3.webp": {
+    "title": "kite",
+    "author": "56338237",
+    "author_url": "https://pixabay.com/users/56338237/",
+    "page": "https://pixabay.com/illustrations/childrens-illustration-playful-10379760/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 506
+  },
+  "assets/img/stories/100-4.webp": {
+    "title": "kite",
+    "author": "Terranaut",
+    "author_url": "https://pixabay.com/users/Terranaut/",
+    "page": "https://pixabay.com/illustrations/dragon-fantasy-fairy-tale-7931660/",
+    "license": "Pixabay Content License",
+    "width": 900,
+    "height": 861
+  },
+  "assets/img/splash-bg.webp": {
+    "title": "watercolor mountain lake",
+    "author": "flutie8211",
+    "author_url": "https://pixabay.com/users/flutie8211/",
+    "page": "https://pixabay.com/illustrations/mount-fuji-japan-nature-mountain-9561799/",
+    "license": "Pixabay Content License",
+    "width": 1280,
+    "height": 807
+  },
+  "assets/img/hero-banner.webp": {
+    "title": "animals reading together",
+    "author": "CreativeCanvasDesign",
+    "author_url": "https://pixabay.com/users/CreativeCanvasDesign/",
+    "page": "https://pixabay.com/vectors/fox-book-autumn-leaf-red-scarf-10478655/",
+    "license": "Pixabay Content License",
+    "width": 1280,
+    "height": 1280
+  }
+}
