@@ -6,8 +6,7 @@ A Hindi storybook website for Sanu, built as a dependency-free static site for G
 
 ```text
 index.html
-css/styles.css            base theme, splash, cards, reader
-css/storybook.css         illustrated layer: splash painting, banner, mixed reader layouts
+css/styles.css            whole jungle theme (tokens, splash, nav, cards, reader, night mode)
 js/stories.js             stories 1-15   (Panchatantra)
 js/stories-part2.js       stories 16-25  (Jataka) + 26-40 (Akbar-Birbal)
 js/stories-part3.js       stories 41-50  (Tenali Raman)
@@ -17,11 +16,15 @@ js/stories-part6.js       stories 86-95  (nature stories)
 js/stories-part7.js       stories 96-100 (Sanu's adventures)
 js/img-manifest.js        window.IMG_MANIFEST - illustration files per story
 js/app.js                 catalog, reader, search, bookmarks, ratings, progress, TTS
-assets/img/stories/       400 watercolour illustrations (4 per story)
+assets/img/stories/       story illustrations, all 800x600 (4:3)
+assets/img/thumbs/        400x300 thumbnails used by the home-page cards
 assets/img/splash-bg.webp splash painting
 assets/img/hero-banner.webp home page banner (deer, peacock, frog, butterfly)
 assets/img/credits.json   photographer credit for every image file
 tools/fetch_images.py     Pixabay downloader that builds the manifest and credits
+tools/normalize_images.py repairs damaged files, makes every picture 4:3, builds thumbnails
+tools/make_scene_art.js   draws kid-friendly illustrations for missing / duplicated slots
+tools/duplicates.json     slots whose picture was a duplicate (replaced by drawn art)
 tools/subjects.json       per-story illustration subject
 tools/assign_heroes.py    stable hero-name assignment per story
 ```
@@ -56,12 +59,19 @@ All heroes are written with feminine verb forms.
 
 * 400 watercolour / cartoon storybook illustrations, four per story, downloaded from Pixabay under
   the Pixabay Content License.
-* No picture is reused anywhere on the site: `tools/used_images.json` records every Pixabay id, and
-  `tools/fetch_images.py` never picks an id twice.
+* No picture is reused: duplicates found by `tools/normalize_images.py` runs were removed, and every slot that had
+  no usable picture (damaged, blank or duplicated - 94 in all) now has its own illustration drawn by
+  `node tools/make_scene_art.js` from that scene's data (characters, scenery and colours in `js/stories*.js`).
+  Frightening emoji are swapped for gentler ones. Run order for a fresh checkout: `normalize_images.py`, then
+  `make_scene_art.js`.
 * Each story has its own subject in `tools/subjects.json`; a picture is only accepted when Pixabay's
   tags mention that subject, so the art matches the story.
-* Cards show the whole picture (4:3 box, `object-fit: contain`); reader images are never cropped and
-  keep their natural aspect ratio.
+* Every picture is 800x600 (4:3) and every card / scene frame is 4:3, so nothing looks square or tall.
+  `tools/normalize_images.py` crops pictures that are close to 4:3 and shows tall or wide ones whole on a
+  blurred copy of themselves. Cards load 400x300 thumbnails (`assets/img/thumbs/`); the reader loads the full file.
+* Some downloads had lost their transparency (black backgrounds, colour streaks, or fully black files).
+  The script repairs what it can; slots it cannot repair are `null` in `js/img-manifest.js` and the reader shows
+  the scene's emoji panel instead.
 * Attribution for each file is in `assets/img/credits.json`.
 
 ### Refreshing the art
@@ -73,11 +83,11 @@ PIXABAY_KEY=your_key python3 tools/fetch_images.py --special
 
 The key is read from the environment only; it is never written to a file.
 
-## Reader layouts
+## Reader layout
 
-Each scene picks a layout from six variants, so a story alternates between image-left, image-right,
-stacked, text-over-image (with a readable scrim), image-on-top and image-on-bottom. Layouts collapse
-to a single column on phones.
+Every scene is one card with a 4:3 picture and large text. On wide screens the picture alternates left / right;
+on phones the picture sits on top. A reading-progress bar runs under the header, and A- / A+, auto-scroll and
+read-aloud work on the reader itself.
 
 ## Live site
 

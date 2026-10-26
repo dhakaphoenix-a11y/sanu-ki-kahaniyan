@@ -14,28 +14,31 @@ const readStore = (key, fallback) => { try { return JSON.parse(localStorage.getI
 const writeStore = (key, value) => { try { localStorage.setItem(`sanu_${key}`, JSON.stringify(value)); } catch {} };
 const escapeHtml = value => String(value).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
 const byId = id => document.getElementById(id);
-const READER_LAYOUTS = ['layout-side-left', 'layout-side-right', 'layout-stack', 'layout-overlay', 'layout-image-top', 'layout-image-bottom'];
+const READER_LAYOUTS = ['layout-side-left', 'layout-side-right'];   // picture left / right on wide screens, picture on top on phones
 const imageList = story => (window.IMG_MANIFEST && window.IMG_MANIFEST[story.id]) || [];
+const thumbOf = path => path.replace('/stories/', '/thumbs/');
 
 function sceneFigure(story, scene, index, eager) {
   const images = imageList(story);
-  const image = images.length ? images[index % images.length] : null;
+  const image = images.length ? images[index % images.length] : null;   // null = picture missing -> emoji panel
   const badge = `<span class="scene-number">${index + 1} / ${story.scenes.length}</span>`;
   if (!image) {
-    return `<figure class="scene-figure scene-figure--plain" style="background:${escapeHtml(scene.image?.bg || story.bgGradient)}"><span class="scene-emoji">${escapeHtml(scene.image?.emoji || story.emoji)}</span>${badge}</figure>`;
+    const art = scene.image || {};
+    const deco = (art.bgEmojis || []).slice(0, 2).map((e, i) => `<span class="scene-deco scene-deco--${i ? 'b' : 'a'}" aria-hidden="true">${escapeHtml(e)}</span>`).join('');
+    return `<figure class="scene-figure scene-figure--plain" style="background:${escapeHtml(art.bg || story.bgGradient)}">${deco}<span class="scene-emoji" role="img" aria-label="${escapeHtml(story.title)} का दृश्य ${index + 1}">${escapeHtml(art.emoji || story.emoji)}</span>${badge}</figure>`;
   }
-  return `<figure class="scene-figure"><img src="${escapeHtml(image)}" alt="${escapeHtml(story.title)} का दृश्य ${index + 1}" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async">${badge}</figure>`;
+  return `<figure class="scene-figure"><img src="${escapeHtml(image)}" width="800" height="600" alt="${escapeHtml(story.title)} का दृश्य ${index + 1}" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async">${badge}</figure>`;
 }
 
 function sceneMarkup(story, scene, index) {
-  const layout = READER_LAYOUTS[(story.id + index) % READER_LAYOUTS.length];
+  const layout = READER_LAYOUTS[index % READER_LAYOUTS.length];
   return `<section class="story-scene ${layout}">${sceneFigure(story, scene, index, index === 0)}<p class="story-segment-text">${escapeHtml(scene.text)}</p></section>`;
 }
 
 function cardThumb(story) {
-  const image = imageList(story)[0];
+  const image = imageList(story).find(Boolean);
   if (!image) return `<div class="story-illustration" style="background:${escapeHtml(story.bgGradient)}"><span>${escapeHtml(story.emoji)}</span></div>`;
-  return `<img src="${escapeHtml(image)}" alt="${escapeHtml(story.title)}" loading="lazy" decoding="async">`;
+  return `<img src="${escapeHtml(thumbOf(image))}" width="400" height="300" alt="${escapeHtml(story.title)}" loading="lazy" decoding="async">`;
 }
 
 function showToast(message) {
@@ -85,9 +88,9 @@ function renderStories(category = 'all') {
   byId('back-to-cats').style.display = category === 'all' ? 'none' : 'inline-flex';
   grid.innerHTML = stories.map(story => `
     <article class="story-card" role="button" tabindex="0" onclick="openStory(${story.id})" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openStory(${story.id})}">
-      <div class="story-card-image">${cardThumb(story)}</div>
+      <div class="story-card-image">${cardThumb(story)}${reads.includes(story.id) ? '<span class="story-badge">✅ पढ़ी</span>' : ''}</div>
       <div class="story-card-body"><div class="story-card-category">${escapeHtml(story.categoryLabel)}</div><h3 class="story-card-title">${escapeHtml(story.title)}</h3>
-      <div class="story-card-meta"><span>📖 ${story.scenes.length} चित्र</span><span>${reads.includes(story.id)?'✅ पढ़ी':''} ${favorites.includes(story.id)?'❤️':''} ${ratings[story.id]?'⭐'.repeat(ratings[story.id]):''}</span></div></div>
+      <div class="story-card-meta"><span>📖 ${story.scenes.length} चित्र</span><span>${favorites.includes(story.id)?'❤️ ':''}${ratings[story.id]?'⭐'.repeat(ratings[story.id]):''}</span></div></div>
     </article>`).join('') || '<div class="empty-state"><span class="empty-emoji">📚</span><p>इस श्रेणी में अभी कहानियाँ नहीं हैं।</p></div>';
   categoryInfo.forEach(([key]) => {
     const count = STORIES.filter(story => story.category === key).length;
@@ -119,8 +122,8 @@ function openStory(id) {
   document.querySelectorAll('.star-btn').forEach((button,index) => button.classList.toggle('active', index < savedRating));
   byId('prev-story-btn').disabled = !getAdjacentStory(-1);
   byId('next-story-btn').disabled = !getAdjacentStory(1);
-  window.scrollTo({top:0, behavior:'smooth'});
-  renderStories(currentCategory);
+  stopAutoScroll(); stopSpeaking(); applyFontSize();
+  const reader = byId('story-reader'); reader.scrollTop = 0; updateReadingProgress();
 }
 
 function getAdjacentStory(direction) {
@@ -128,7 +131,7 @@ function getAdjacentStory(direction) {
   const index = list.findIndex(story => story.id === currentStoryId);
   return list[index + direction] || null;
 }
-function closeStory() { stopAutoScroll(); stopSpeaking(); byId('story-reader').classList.add('hidden'); byId('home-page').classList.remove('hidden'); byId('floating-mascot').classList.remove('hidden'); renderStories(currentCategory); window.scrollTo({top:0,behavior:'smooth'}); }
+function closeStory() { stopAutoScroll(); stopSpeaking(); ['story-reader','bookmarks-page','progress-page'].forEach(id => byId(id).classList.add('hidden')); byId('home-page').classList.remove('hidden'); byId('floating-mascot').classList.remove('hidden'); renderStories(currentCategory); window.scrollTo({top:0,behavior:'smooth'}); }
 function goHome() { currentCategory = 'all'; closeStory(); }
 function prevStory() { const story = getAdjacentStory(-1); if (story) openStory(story.id); }
 function nextStory() { const story = getAdjacentStory(1); if (story) openStory(story.id); }
@@ -144,15 +147,15 @@ function showBookmarks() {
   if (!byId('sidebar-overlay').classList.contains('hidden')) toggleSidebar();
   const list = STORIES.filter(story => readStore('bookmarks',[]).includes(story.id));
   byId('home-page').classList.add('hidden'); byId('story-reader').classList.add('hidden'); byId('progress-page').classList.add('hidden'); byId('bookmarks-page').classList.remove('hidden');
-  byId('bookmarks-grid').innerHTML = list.map(story => `<article class="story-card" onclick="openStory(${story.id})"><div class="story-card-image">${cardThumb(story)}</div><div class="story-card-body"><div class="story-card-category">${escapeHtml(story.categoryLabel)}</div><h3 class="story-card-title">${escapeHtml(story.title)}</h3></div></article>`).join('') || '<div class="empty-state"><span class="empty-emoji">🔖</span><p>अभी कोई पसंदीदा कहानी नहीं है।</p><p>कहानी में ❤️ दबाकर यहाँ जोड़ें।</p></div>';
+  byId('bookmarks-grid').innerHTML = list.map(story => `<article class="story-card" role="button" tabindex="0" onclick="openStory(${story.id})" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openStory(${story.id})}"><div class="story-card-image">${cardThumb(story)}</div><div class="story-card-body"><div class="story-card-category">${escapeHtml(story.categoryLabel)}</div><h3 class="story-card-title">${escapeHtml(story.title)}</h3></div></article>`).join('') || '<div class="empty-state"><span class="empty-emoji">🔖</span><p>अभी कोई पसंदीदा कहानी नहीं है।</p><p>कहानी में ❤️ दबाकर यहाँ जोड़ें।</p></div>';
 }
-function rateStory(stars) { const ratings = readStore('ratings',{}); ratings[currentStoryId] = stars; writeStore('ratings',ratings); document.querySelectorAll('.star-btn').forEach((button,index)=>button.classList.toggle('active',index<stars)); renderStories(currentCategory); showToast('⭐ रेटिंग सहेजी गई'); }
+function rateStory(stars) { const ratings = readStore('ratings',{}); ratings[currentStoryId] = stars; writeStore('ratings',ratings); document.querySelectorAll('.star-btn').forEach((button,index)=>button.classList.toggle('active',index<stars)); showToast('⭐ रेटिंग सहेजी गई'); }
 
 function toggleNightMode() { document.body.classList.toggle('night-mode'); const enabled=document.body.classList.contains('night-mode'); writeStore('nightMode',enabled); byId('night-mode-btn').textContent=enabled?'☀️':'🌙'; }
 function increaseFontSize() { fontScale=Math.min(fontScale+0.1,1.6); applyFontSize(); }
 function decreaseFontSize() { fontScale=Math.max(fontScale-0.1,0.8); applyFontSize(); }
-function applyFontSize() { document.querySelectorAll('.story-segment-text').forEach(el=>el.style.fontSize=`${fontScale}rem`); }
-function toggleAutoScroll() { if(autoScrollTimer){stopAutoScroll();return;} byId('auto-scroll-btn').textContent='⏸️'; autoScrollTimer=setInterval(()=>{window.scrollBy(0,1);if(innerHeight+scrollY>=document.body.scrollHeight-2)stopAutoScroll();},35); }
+function applyFontSize() { document.querySelectorAll('.story-segment-text').forEach(el=>el.style.fontSize = fontScale === 1 ? '' : `${1.35*fontScale}rem`); }
+function toggleAutoScroll() { if(autoScrollTimer){stopAutoScroll();return;} byId('auto-scroll-btn').textContent='⏸️'; const reader=byId('story-reader'); autoScrollTimer=setInterval(()=>{reader.scrollTop+=1;if(reader.scrollTop+reader.clientHeight>=reader.scrollHeight-2)stopAutoScroll();},30); }
 function stopAutoScroll() { clearInterval(autoScrollTimer);autoScrollTimer=null;if(byId('auto-scroll-btn'))byId('auto-scroll-btn').textContent='▶️'; }
 function readAloud() {
   if (!('speechSynthesis' in window)) { showToast('इस डिवाइस पर पढ़कर सुनाना उपलब्ध नहीं है'); return; }
@@ -194,5 +197,17 @@ document.addEventListener('DOMContentLoaded',()=>{
   updateStreak();renderStories('all');updateProgressStats();
   setTimeout(mascotSpeak,2500);
 });
-let touchX=0;document.addEventListener('touchstart',event=>touchX=event.changedTouches[0].screenX,{passive:true});
-document.addEventListener('touchend',event=>{if(byId('story-reader').classList.contains('hidden'))return;const dx=touchX-event.changedTouches[0].screenX;if(Math.abs(dx)>90)(dx>0?nextStory:prevStory)();},{passive:true});
+function updateReadingProgress() {
+  const reader = byId('story-reader'), bar = byId('reading-progress');
+  const max = reader.scrollHeight - reader.clientHeight;
+  bar.style.width = max > 0 ? `${Math.min(100, reader.scrollTop / max * 100)}%` : '0';
+}
+byId('story-reader').addEventListener('scroll', updateReadingProgress, {passive:true});
+
+let touchX = 0, touchY = 0;
+document.addEventListener('touchstart', event => { touchX = event.changedTouches[0].screenX; touchY = event.changedTouches[0].screenY; }, {passive:true});
+document.addEventListener('touchend', event => {
+  if (byId('story-reader').classList.contains('hidden')) return;
+  const dx = touchX - event.changedTouches[0].screenX, dy = touchY - event.changedTouches[0].screenY;
+  if (Math.abs(dx) > 110 && Math.abs(dx) > Math.abs(dy) * 2) (dx > 0 ? nextStory : prevStory)();   // clearly horizontal swipes only
+}, {passive:true});
